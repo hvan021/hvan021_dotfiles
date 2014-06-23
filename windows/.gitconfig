@@ -1,0 +1,35 @@
+[gui]
+[user]
+    email = hvan021@gmail.com
+    name = "Hugh Van"
+[core]
+    ;editor = \"c:\\Program Files (x86)\\Notepad++\\notepad++.exe\"
+    editor = "d:/Vim/vim74/gvim.exe"
+    autocrlf = false
+
+[merge]
+    tool = kdiff3
+[mergetool "kdiff3"]
+    path = c:/Program Files (x86)/KDiff3/kdiff3.exe
+[diff]
+    tool = kdiff3
+    guitool = kdiff3
+[difftool "kdiff3"]
+    path = c:/Program Files (x86)/KDiff3/kdiff3.exe
+[gui]
+    recentrepo = D:/Dropbox/Projects/cmsdev
+    recentrepo = D:/Dropbox/Projects/tda
+[color]
+    ui = true
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    br = branch
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+    type = cat-file -t
+    dump = cat-file -p
+[push]
+    default = simple
+
