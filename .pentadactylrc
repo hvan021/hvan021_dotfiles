@@ -1,0 +1,13 @@
+"1.1
+
+loadplugins '\.(js|penta)$'
+group user
+map -b j 5j
+map -b k 5k
+map -count -modes=n h <count>gT
+map -count -modes=n l <count>gt
+"set hintkeys=asdf;lkj
+set hintkeys=asdflkj
+hi -a Hint font-size: 9pt !important;
+set strictfocus=google.com:laissez-faire,'chrome:*':laissez-faire,*:despotic
+" vim: set ft=pentadactyl:

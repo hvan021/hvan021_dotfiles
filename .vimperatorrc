@@ -1,0 +1,16 @@
+" scroll
+nnoremap j 3j
+nnoremap k 3k
+nnoremap h gT<Esc>
+nnoremap l gt<Esc>
+
+"nnoremap H h
+"nnoremap L l
+
+"no navigation bar
+set gui=nonavigation
+
+set hintchars=asdf;lkj
+
+autocmd LocationChange .*                             js modes.passAllKeys = false
+autocmd LocationChange mail\\.google\\.com            js modes.passAllKeys = true

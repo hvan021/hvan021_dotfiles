@@ -1,0 +1,7 @@
+[user]
+	name = Hugh Van
+	email = hvan021@gmail.com
+[push]
+	default = simple
+[alias]
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
