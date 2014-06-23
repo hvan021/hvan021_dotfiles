@@ -144,6 +144,12 @@
     " Vertical split windows
     nnoremap <Leader>w <C-w>v<C-w>l
 
+    " quick edit vim
+    nnoremap <Leader>ev :tabe $MYVIMRC<cr>
+
+    " quick source new settings of file begin editted
+    nnoremap <Leader>so :so %<cr>
+
 " ============================================================================
 " -------  THEMES - FONTS - GUI --------
 " ============================================================================
@@ -440,7 +446,7 @@ let g:SuperTabDefaultCompletionType = "context"
 let g:vim_markdown_initial_foldlevel=1
 
 
- map <Leader>v :source ~/.vimrc<cr>
+ "map <Leader>v :source ~/.vimrc<cr>
 
 " Compile bootstrap.css when saving a .less file
 "func! s:CompileLess()
@@ -575,7 +581,7 @@ vnoremap ~ y:call setreg('', TwiddleCase(@"), getregtype(''))<CR>gv""Pgv
 " ============================================================================
 
 " Automatic reloading of .vimrc
- autocmd! bufwritepost .vimrc source %
+ "autocmd! bufwritepost .vimrc source %
 
 " Fixing the copy & paste madness
 " ================================
