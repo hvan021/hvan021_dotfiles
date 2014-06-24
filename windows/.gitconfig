@@ -4,7 +4,8 @@
     name = "Hugh Van"
 [core]
     ;editor = \"c:\\Program Files (x86)\\Notepad++\\notepad++.exe\"
-    editor = "d:/Vim/vim74/gvim.exe"
+    ;editor = "d:/Vim/vim74/gvim.exe"
+    editor = vim
     autocrlf = false
 
 [merge]
