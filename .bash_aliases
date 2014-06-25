@@ -3,7 +3,11 @@
 #alias vim='"/d/Vim/vim74/gvim.exe"'
 
 
-alias la='ls -alh'
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" || "$OSTYPE" == "win64" ]]; then
+    alias la='ls -alh --color=always'
+else
+    alias la='ls -alh'
+fi
 
 alias ga='git add'
 alias gb='git branch'
