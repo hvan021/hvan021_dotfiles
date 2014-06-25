@@ -3,7 +3,7 @@
 #alias vim='"/d/Vim/vim74/gvim.exe"'
 
 
-alias la='ls -alh --color=always'
+alias la='ls -alh'
 
 alias ga='git add'
 alias gb='git branch'
