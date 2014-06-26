@@ -4,7 +4,7 @@
     " ============================================================================
     " -------- VIM GENERAL SETTINGS --------
     " ============================================================================
-    "set nocompatible " Must be first line
+    set nocompatible " Must be first line
 
 " Windows Compatible {
 " On Windows, also use '.vim' instead of 'vimfiles'; this makes synchronization
@@ -69,6 +69,13 @@
     set nowritebackup
     set noswapfile
 
+    " Return to last edit position when opening files (You want this!)
+    autocmd BufReadPost *
+        \ if line("'\"") > 0 && line("'\"") <= line("$") |
+        \   exe "normal! g`\"" |
+        \ endif
+    " Remember info about open buffers on close
+    set viminfo^=%
     " ============================================================================
     " -------- KEY BINDING SETTINGS --------
     " ============================================================================
@@ -144,11 +151,41 @@
     " Vertical split windows
     nnoremap <Leader>w <C-w>v<C-w>l
 
-    " quick edit vim
-    nnoremap <Leader>ev :tabe $MYVIMRC<cr>
+" Map ,h to host and vhost files
+    if has('win32') || has('win64')
+        map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts <bar> tabe C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<cr>
+    else
+        "map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts<CR> && :tabe C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<CR>
+    endif
 
-    " quick source new settings of file begin editted
-    nnoremap <Leader>so :so %<cr>
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Editing mappings
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Remap VIM 0 to first non-blank character
+map 0 ^
+
+" Move a line of text using ALT+[jk] or Comamnd+[jk] on mac
+nmap <M-j> mz:m+<cr>`z
+nmap <M-k> mz:m-2<cr>`z
+vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
+vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
+
+if has("mac") || has("macunix")
+  nmap <D-j> <M-j>
+  nmap <D-k> <M-k>
+  vmap <D-j> <M-j>
+  vmap <D-k> <M-k>
+endif
+
+" Delete trailing white space on save, useful for Python and CoffeeScript ;)
+func! DeleteTrailingWS()
+  exe "normal mz"
+  %s/\s\+$//ge
+  exe "normal `z"
+endfunc
+autocmd BufWrite *.py :call DeleteTrailingWS()
+autocmd BufWrite *.coffee :call DeleteTrailingWS()
+
 
 " ============================================================================
 " -------  THEMES - FONTS - GUI --------
@@ -161,7 +198,7 @@ if has('win32') || has('win64')
     set lines=65 columns=125
     " winpos 65 1
     set textwidth=80
-    :autocmd GUIEnter * winpos 65 1
+    :autocmd GUIEnter * winpos 55 1
 endif
 
 " =========================
@@ -198,6 +235,7 @@ vnoremap <space> zA
 " When opening the file, unfold all. Fold all with zM
 " au BufRead * normal zR
 
+set laststatus=2
 
 " =========================
 " show tab number and modify status
@@ -312,9 +350,30 @@ endfunction
 
 " ============================================================================
 " ********** ADD-ON & PLUGGINS **********
+" cd ~/.vim/bundle
+" git clone https://github.com/kien/ctrlp.vim.git
+" &&
+" git clone https://github.com/Raimondi/delimitMate.git
+" &&
+" git clone https://github.com/mattn/emmet-vim.git
+" &&
+" git clone --recursive https://github.com/davidhalter/jedi-vim.git
+" &&
+" git clone https://github.com/scrooloose/nerdtree.git
+" &&
+" git clone git://github.com/shawncplus/phpcomplete.vim.git
+" &&
+" git clone https://github.com/ervandew/supertab.git
+" &&
+" git clone https://github.com/sirver/ultisnips.git
+" &&
+" git clone git://github.com/tpope/vim-fugitive.git
+" &&
+" git clone https://github.com/scrooloose/nerdcommenter.git
+" &&
+" git clone https://github.com/scrooloose/syntastic.git
 " ============================================================================
-
-" ===================== 
+" =====================
 " Powerline
 " =====================
 
@@ -336,17 +395,15 @@ endfunction
 "let g:Powerline_symbols = 'fancy'
 
     if has('win32') || has('win64')
-       let g:Powerline_symbols = 'unicode' 
+       let g:Powerline_symbols = 'unicode'
     elseif has('mac')
         source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
-        let g:Powerline_suymbols = 'fancy' 
-    elseif has('unix')
-    "else
+        let g:Powerline_suymbols = 'fancy'
+    elseif has('linux')
         set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-        "let g:Powerline_suymbols = 'fancy' 
+        let g:Powerline_suymbols = 'fancy'
     endif
 
-set laststatus=2
 
 " =====================
 " NERDTree mapping
@@ -424,6 +481,7 @@ inoremap <silent><C-k> <C-R>=OmniPopup('k')<CR>
 
 " =====================
 " SuperTab Integration
+" gti clone git://github.com/ervandew/supertab.git bundle/supertab
 " =====================
 set completeopt-=preview
 let g:SuperTabDefaultCompletionType = ""
@@ -446,7 +504,7 @@ let g:SuperTabDefaultCompletionType = "context"
 let g:vim_markdown_initial_foldlevel=1
 
 
- "map <Leader>v :source ~/.vimrc<cr>
+ map <Leader>v :source ~/.vimrc<cr>
 
 " Compile bootstrap.css when saving a .less file
 "func! s:CompileLess()
@@ -581,7 +639,7 @@ vnoremap ~ y:call setreg('', TwiddleCase(@"), getregtype(''))<CR>gv""Pgv
 " ============================================================================
 
 " Automatic reloading of .vimrc
- "autocmd! bufwritepost .vimrc source %
+ autocmd! bufwritepost .vimrc source %
 
 " Fixing the copy & paste madness
 " ================================
