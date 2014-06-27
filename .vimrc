@@ -90,9 +90,16 @@
     noremap <Leader>h :nohl<CR>
 
     " Quicksave command
-    noremap <Leader>s :update<CR>
-    vnoremap <Leader>s <C-C>:update<CR>
-    inoremap <Leader>s <Esc>:update<CR>
+    noremap <Leader>w :update<CR>
+    vnoremap <Leader>w <C-C>:update<CR>
+    inoremap <Leader>w <Esc>:update<CR>
+
+    " sudo save
+
+    if has("mac") || has("unix")
+        "nnoremap <Leader>W w !sudo tee > /dev/null %
+        cmap w!! w !sudo tee > /dev/null %
+    endif
 
     " Quick quit command
     noremap <Leader>e :quit<CR>  " Quit current window
@@ -149,19 +156,20 @@
     map <Leader>x :%s/\s\+$//<cr>
 
     " Vertical split windows
-    nnoremap <Leader>w <C-w>v<C-w>l
+    "nnoremap <Leader>w <C-w>v<C-w>l
 
 " Map ,h to host and vhost files
     if has('win32') || has('win64')
-        map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts <bar> tabe C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<cr>
+        "map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts <bar> tabe C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<cr>
+        map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts <bar> vsp C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<cr>
     else
         "map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts<CR> && :tabe C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<CR>
     endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Remap VIM 0 to first non-blank character
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map 0 ^
 
 " Move a line of text using ALT+[jk] or Comamnd+[jk] on mac
@@ -170,7 +178,7 @@ nmap <M-k> mz:m-2<cr>`z
 vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
 vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
 
-if has("mac") || has("macunix")
+if has("mac") || has("unix")
   nmap <D-j> <M-j>
   nmap <D-k> <M-k>
   vmap <D-j> <M-j>
