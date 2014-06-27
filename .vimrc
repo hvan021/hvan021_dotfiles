@@ -94,11 +94,12 @@
     vnoremap <Leader>w <C-C>:update<CR>
     inoremap <Leader>w <Esc>:update<CR>
 
+    noremap <Leader>s <nop>
     " sudo save
 
     if has("mac") || has("unix")
         "nnoremap <Leader>W w !sudo tee > /dev/null %
-        cmap w!! w !sudo tee > /dev/null %
+        cmap w!! w !sudo tee % >/dev/null
     endif
 
     " Quick quit command
@@ -163,7 +164,7 @@
         "map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts <bar> tabe C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<cr>
         map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts <bar> vsp C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<cr>
     else
-        "map <Leader>h :tabe c:\Windows\System32\drivers\etc\hosts<CR> && :tabe C:\WebServer\Apache24\conf\extra\httpd-vhosts.conf<CR>
+        map <Leader>h :tabe /private/etc/hosts <bar> vsp /private/etc/apache2/extra/httpd-vhosts.conf<CR>
     endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
