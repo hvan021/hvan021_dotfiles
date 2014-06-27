@@ -1,6 +1,8 @@
 [user]
 	name = "Hugh Van"
 	email = hvan021@gmail.com
+[color]
+    ui = auto
 [push]
 	default = simple
 [alias]
