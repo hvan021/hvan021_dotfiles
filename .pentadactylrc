@@ -25,6 +25,7 @@ set strictfocus=google.com:laissez-faire,'chrome:*':laissez-faire,*:despotic
 nmap <leader>gh :tabopen www.github.com<cr>
 nmap <leader>css :tabopen http://www.cssmania.com/ | http://csscreme.com/ <cr>
 nmap <leader>b :tabopen www.nzherald.co.nz | http://us.lifehacker.com | https://news.ycombinator.com/news | http://onethingwell.org/ <cr>
+nmap <leader>v :tabopen www.dantri.com.vn | www.vnexpress.net | www.ngoisao.net <cr>
 nmap <leader>tda :tabopen tda.local/tda | tdacms.com | cmsdev.local <cr>
 " Pass through for some sites
 autocmd LocationChange ^https?://(drive|docs)\.google\.com/ :normal! <C-z>
