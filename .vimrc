@@ -204,10 +204,12 @@ if has('win32') || has('win64')
     set guifont=Consolas:h10
     "Set vim full screen
     "set lines=55 columns=200
-    set lines=65 columns=125
+    "set lines=999 columns=999
     " winpos 65 1
     set textwidth=80
-    :autocmd GUIEnter * winpos 55 1
+    ":autocmd GUIEnter * winpos 1 1
+    " set maximize window 
+    au GUIEnter * simalt ~x 
 endif
 
 " =========================
