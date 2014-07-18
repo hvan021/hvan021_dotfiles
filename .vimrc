@@ -209,7 +209,9 @@ if has('win32') || has('win64')
     set textwidth=80
     ":autocmd GUIEnter * winpos 1 1
     " set maximize window 
-    au GUIEnter * simalt ~x 
+    "au GUIEnter * simalt ~x 
+    " set initial window size
+    set lines=60 columns=120
 endif
 
 " =========================
@@ -412,7 +414,7 @@ endfunction
         let g:Powerline_suymbols = 'fancy'
     elseif has('linux')
         set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-        let g:Powerline_suymbols = 'fancy'
+        let g:Powerline_symbols = 'fancy'
     endif
 
 
@@ -537,8 +539,9 @@ let g:vim_markdown_initial_foldlevel=1
 " Syntastic
 " =========
 "let jshint2_save = 1
-
-
+let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_python_flake8_args = '--ignore=E501,E225'
+"let g:syntastic_python_flake8_args='--ignore=E265'
 " Javacomplete
 " ============
 "func! s:SetClasspath()

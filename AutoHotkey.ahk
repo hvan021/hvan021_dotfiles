@@ -31,6 +31,7 @@ k::Send {Up}
 Return
 
 #IfWinActive ahk_class AcrobatSDIWindow
+
 d::WinClose
 return
 
