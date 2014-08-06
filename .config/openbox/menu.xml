@@ -425,7 +425,7 @@
   <separator label="FAL" />
     <item label="Terminator">
         <action name="Execute">
-        <command>terminator</command>
+        <command>terminator --command="tmux"</command>
         </action>
     </item>
     <item label="Firefox">

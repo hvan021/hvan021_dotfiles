@@ -38,6 +38,7 @@
     let g:html_indent_inctags = "html,body,head,tbody"
     let g:html_indent_script1 = "inc"
     let g:html_indent_style1 = "inc"
+    let g:netrw_dirhistmax = 0
 
     " Better copy & paste
     " When you want to paste large blocks of code into vim, press F2 before you
@@ -171,7 +172,7 @@
 " => Editing mappings
 " Remap VIM 0 to first non-blank character
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map 0 ^
+"map 0 ^
 
 " Move a line of text using ALT+[jk] or Comamnd+[jk] on mac
 nmap <M-j> mz:m+<cr>`z
