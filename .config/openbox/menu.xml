@@ -48,6 +48,7 @@
       </startupnotify>
     </action>
   </item>
+  <!--
   <item label="GEdit">
     <action name="Execute">
       <command>gedit</command>
@@ -72,9 +73,16 @@
       </startupnotify>
     </action>
   </item>
+-->
 </menu>
 
 <menu id="apps-term-menu" label="Terminals">
+  <item label="Terminator">
+    <action name="Execute">
+      <command>terminator</command>
+    </action>
+  </item>
+  <!--
   <item label="Rxvt Unicode">
     <action name="Execute">
       <command>urxvt</command>
@@ -107,16 +115,12 @@
   <item label="Xterm">
     <action name="Execute"><command>xterm</command></action>
   </item>
-  <item label="Terminator">
-    <action name="Execute">
-      <command>terminator</command>
-    </action>
-  </item>
   <item label="Tmux">
     <action name="Execute">
       <command>tmux</command>
     </action>
   </item>
+-->
 </menu>
 
 <menu id="apps-net-menu" label="Internet">
@@ -129,57 +133,58 @@
       </startupnotify>
     </action>
   </item>
-  <item label="Opera">
-    <action name="Execute">
-      <command>opera</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-        <wmclass>Opera</wmclass>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Konqueror">
-    <action name="Execute">
-      <command>konqueror</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Epiphany">
-    <action name="Execute">
-      <command>epiphany</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Pidgin Instant Messenger">
-    <action name="Execute">
-      <command>pidgin</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Kopete Instant Messenger">
-    <action name="Execute">
-      <command>kopete</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="XChat">
-    <action name="Execute">
-      <command>xchat</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
+  <!--<item label="Opera">-->
+    <!--<action name="Execute">-->
+      <!--<command>opera</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+        <!--<wmclass>Opera</wmclass>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="Konqueror">-->
+    <!--<action name="Execute">-->
+      <!--<command>konqueror</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="Epiphany">-->
+    <!--<action name="Execute">-->
+      <!--<command>epiphany</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="Pidgin Instant Messenger">-->
+    <!--<action name="Execute">-->
+      <!--<command>pidgin</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="Kopete Instant Messenger">-->
+    <!--<action name="Execute">-->
+      <!--<command>kopete</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="XChat">-->
+    <!--<action name="Execute">-->
+      <!--<command>xchat</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
 </menu>
 
+<!--
 <menu id="apps-office-menu" label="Office">
   <item label="OpenOffice Base">
     <action name="Execute">
@@ -217,7 +222,9 @@
     </action>
   </item>
 </menu>
+-->
 
+<!--
 <menu id="apps-multimedia-menu" label="Multimedia">
   <item label="Amarok">
     <action name="Execute">
@@ -261,41 +268,42 @@
     </action>
   </item>
 </menu>
+-->
 
 <menu id="apps-fileman-menu" label="File Managers">
-  <item label="Nautilus">
-    <action name="Execute">
-      <command>nautilus --no-desktop --browser</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Thunar">
-    <action name="Execute">
-      <command>Thunar</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="KDE File Manager">
-    <action name="Execute">
-      <command>kfmclient openURL ~</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-      </startupnotify>
-    </action>
-  </item>
-  <item label="Rox">
-    <action name="Execute">
-      <command>rox</command>
-      <startupnotify>
-        <enabled>yes</enabled>
-        <wmclass>ROX-Filer</wmclass>
-      </startupnotify>
-    </action>
-  </item>
+  <!--<item label="Nautilus">-->
+    <!--<action name="Execute">-->
+      <!--<command>nautilus --no-desktop --browser</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="Thunar">-->
+    <!--<action name="Execute">-->
+      <!--<command>Thunar</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="KDE File Manager">-->
+    <!--<action name="Execute">-->
+      <!--<command>kfmclient openURL ~</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
+  <!--<item label="Rox">-->
+    <!--<action name="Execute">-->
+      <!--<command>rox</command>-->
+      <!--<startupnotify>-->
+        <!--<enabled>yes</enabled>-->
+        <!--<wmclass>ROX-Filer</wmclass>-->
+      <!--</startupnotify>-->
+    <!--</action>-->
+  <!--</item>-->
   <item label="PCMan File Manager">
     <action name="Execute">
       <command>pcmanfm</command>
@@ -306,6 +314,7 @@
   </item>
 </menu>
 
+<!--
 <menu id="apps-graphics-menu" label="Graphics">
   <item label="Gimp">
     <action name="Execute">
@@ -340,6 +349,7 @@
     </action>
   </item>
 </menu>
+-->
 
 <menu id="system-menu" label="System">
   <item label="Openbox Configuration Manager">
@@ -348,6 +358,7 @@
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
+  <!--
   <item label="Gnome Control Center">
     <action name="Execute">
       <command>gnome-control-center</command>
@@ -375,6 +386,7 @@
       </startupnotify>
     </action>
   </item>
+-->
   <separator />
   <item label="Reconfigure Openbox">
     <action name="Reconfigure" />
@@ -410,6 +422,32 @@
 </menu>
 
 <menu id="root-menu" label="Openbox 3">
+  <separator label="FAL" />
+    <item label="Terminator">
+        <action name="Execute">
+        <command>terminator</command>
+        </action>
+    </item>
+    <item label="Firefox">
+        <action name="Execute">
+        <command>firefox</command>
+        <startupnotify>
+            <enabled>yes</enabled>
+            <wmclass>Firefox</wmclass>
+        </startupnotify>
+        </action>
+    </item>
+    <item label="PCMan File Manager">
+        <action name="Execute">
+        <command>pcmanfm</command>
+        <startupnotify>
+            <enabled>yes</enabled>
+        </startupnotify>
+        </action>
+    </item>
+    <item label="Reconfigure Openbox">
+        <action name="Reconfigure" />
+    </item>
   <separator label="Applications" />
   <menu id="apps-accessories-menu"/>
   <menu id="apps-editors-menu"/>
