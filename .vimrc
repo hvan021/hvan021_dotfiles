@@ -411,9 +411,13 @@ endfunction
        let g:Powerline_symbols = 'unicode'
     elseif has('mac')
         source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
-        let g:Powerline_suymbols = 'fancy'
-    elseif has('linux')
-        set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+        let g:Powerline_symbols = 'fancy'
+    else
+        " python 2.7
+        "set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+        " python 3.4
+        set rtp+=$HOME/.local/lib/python3.4/site-packages/powerline/bindings/vim/
         let g:Powerline_symbols = 'fancy'
     endif
 
