@@ -1,5 +1,6 @@
-.pentadactyl/info/default/cache
-.pentadactyl/info/default/command-history
-.pentadactyl/info/default/local-marks
-.pentadactyl/info/default/register*
-.pentadactyl/info/default/url-marks
+!.pentadactyl/info/default/quickmarks
+.pentadactyl/info/default/*
+/*.pentadactyl/info/default/command-history*/
+/*.pentadactyl/info/default/local-marks*/
+/*.pentadactyl/info/default/register**/
+/*.pentadactyl/info/default/url-marks*/
