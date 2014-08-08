@@ -5,3 +5,6 @@
 /*.pentadactyl/info/default/register**/
 /*.pentadactyl/info/default/url-marks*/
 .mutt/cache/*
+!*.jpg
+!*.png
+

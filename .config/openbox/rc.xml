@@ -262,7 +262,7 @@
         <menu>client-menu</menu>
       </action>
     </keybind>
-    <!-- Keybindings for window switching -->
+    <!-- Keybindings for window switching HUY -->
     <keybind key="W-Tab">
       <action name="NextWindow">
         <finalactions>
@@ -340,7 +340,17 @@
           <enabled>true</enabled>
           <name>Terminator</name>
         </startupnotify>
-        <command>terminator --geometry=485x290</command>
+        <command>terminator</command>
+      </action>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Lock Computer</name>
+        </startupnotify>
+        <command>i3lock -e -i ~/hvan021_dotfiles/images/archlin.png</command>
+        <!--<command>slock</command>-->
       </action>
     </keybind>
   </keyboard>
