@@ -314,13 +314,14 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
+    <!--Huy-->
     <keybind key="W-e">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Konqueror</name>
+          <name>PcManFM</name>
         </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
     <!-- Huy's key bindings -->
