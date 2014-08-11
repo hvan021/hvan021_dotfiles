@@ -1,9 +1,5 @@
 !.pentadactyl/info/default/quickmarks
 .pentadactyl/info/default/*
-/*.pentadactyl/info/default/command-history*/
-/*.pentadactyl/info/default/local-marks*/
-/*.pentadactyl/info/default/register**/
-/*.pentadactyl/info/default/url-marks*/
 .mutt/cache/*
 .mutt/.muttrc
 !*.jpg

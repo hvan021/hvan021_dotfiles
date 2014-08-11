@@ -22,3 +22,6 @@ alias gp='git pull'
 # gs is sometimes used because of 'Ghostscript', but overwrite it anyway
 alias gs='git status'
 mkcd(){ dir=$1; mkdir -p $dir && cd $dir; }
+
+
+alias rdc='rdesktop -g 90% -P -z -x l -r sound:off -u Administrator tdasrv'

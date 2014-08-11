@@ -1,15 +1,19 @@
+# dont forget to replace
+# MY_EMAIL with your email address
+# MY_PASSWORD with your pw
+#
 set editor      = `echo \$EDITOR`
 set my_name     = "Huy Van"
-set imap_user   = ###my_email###@gmail.com
-set imap_pass   = ###my_password###
-set folder      = imaps://###my_email###@imap.gmail.com/
+set imap_user   = MY_EMAIL@gmail.com
+set imap_pass   = MY_PASSWORD
+set folder      = imaps://MY_EMAIL@imap.gmail.com/
 set spoolfile   = +INBOX
 mailboxes       = +INBOX
 set imap_check_subscribed
 
-set smtp_url    = "smtp://###my_email###@smtp.gmail.com:587/"
-set smtp_pass   = ###my_password###
-set from        = "###my_email###@gmail.com"
+set smtp_url    = "smtp://MY_EMAIL@smtp.gmail.com:587/"
+set smtp_pass   = MY_PASSWORD
+set from        = "MY_EMAIL@gmail.com"
 
 set hostname    = gmail.com
 
