@@ -425,7 +425,7 @@
   <separator label="FAL" />
     <item label="Terminator">
         <action name="Execute">
-        <command>terminator --command="tmux"</command>
+        <command>terminator --command="tmux -2"</command>
         </action>
     </item>
     <item label="Firefox">
@@ -440,6 +440,14 @@
     <item label="PCMan File Manager">
         <action name="Execute">
         <command>pcmanfm</command>
+        <startupnotify>
+            <enabled>yes</enabled>
+        </startupnotify>
+        </action>
+    </item>
+    <item label="Remote Desktop">
+        <action name="Execute">
+        <command>rdesktop -g 95% -P -z -x l -r sound:off -u Administrator tdasrv</command>
         <startupnotify>
             <enabled>yes</enabled>
         </startupnotify>
