@@ -28,6 +28,7 @@ nmap <leader>css :tabopen http://www.cssmania.com/ | http://csscreme.com/ <cr>
 nmap <leader>b :tabopen www.nzherald.co.nz | http://us.lifehacker.com | https://news.ycombinator.com/news | http://onethingwell.org/ <cr>
 nmap <leader>v :tabopen www.dantri.com.vn | www.vnexpress.net | www.ngoisao.net <cr>
 nmap <leader>tda :tabopen tda.local/tda | tdacms.com | cmsdev.local <cr>
+nmap <leader>log :tabopen getpocket.com | github.com <cr>
 " Pass through for some sites
 autocmd LocationChange ^https?://(drive|docs)\.google\.com/ :normal! <C-z>
 
