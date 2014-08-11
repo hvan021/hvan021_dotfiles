@@ -5,6 +5,9 @@
 /*.pentadactyl/info/default/register**/
 /*.pentadactyl/info/default/url-marks*/
 .mutt/cache/*
+.mutt/.muttrc
 !*.jpg
 !*.png
+.config/libreoffice/*
+
 
