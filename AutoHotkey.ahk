@@ -15,12 +15,26 @@
 
 ;#z::Run www.autohotkey.com
 
+
+
+
+
 ;^!n::
 ;IfWinExist Untitled - Notepad
 	;WinActivate
 ;else
 	;Run Notepad
 ;return
+
+
+^q::Send !{F4}
+return
+
+
+#q::Send !{F4}
+return
+
+
 
 #IfWinActive ahk_class AcrobatSDIWindow
 j::Send {Down}
@@ -31,14 +45,11 @@ k::Send {Up}
 Return
 
 #IfWinActive ahk_class AcrobatSDIWindow
-
 d::WinClose
 return
 
 #IfWinActive ahk_class Vim
 Capslock::Ctrl
-
-
 
 
 
