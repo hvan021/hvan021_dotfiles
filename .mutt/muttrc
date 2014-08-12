@@ -1,0 +1,52 @@
+# dont forget to replace
+# MY_EMAIL with your email address
+# MY_PASSWORD with your pw
+#
+set editor      = `echo \$EDITOR`
+set my_name     = "Huy Van"
+set imap_user   = MY_EMAIL@gmail.com
+set imap_pass   = MY_PASSWORD
+set folder      = imaps://MY_EMAIL@imap.gmail.com/
+set spoolfile   = +INBOX
+mailboxes       = +INBOX
+set imap_check_subscribed
+
+set smtp_url    = "smtp://MY_EMAIL@smtp.gmail.com:587/"
+set smtp_pass   = MY_PASSWORD
+set from        = "MY_EMAIL@gmail.com"
+
+set hostname    = gmail.com
+
+
+
+# Store message headers locally to speed things up.
+# If hcache is a folder, Mutt will create sub cache folders for each account which may speeds things even more up.
+set header_cache= "~/.mutt/cache"
+
+# Store messages locally to speed things up, like searching message bodies.
+# Can be the same folder as header_cache.
+# This will cost important disk usage according to your e-mail amount.
+set message_cachedir = "~/.mutt/cache"
+
+# Specify where to save and/or look for postponed messages.
+set postpone    = yes
+set postponed   = +[Gmail]/Drafts
+
+# Allow Mutt to open new imap connection automatically.
+unset imap_passive
+
+# Keep IMAP connection alive by polling intermittently (time in seconds).
+set imap_keepalive = 300
+
+# How often to check for new mail (time in seconds).
+set mail_check = 120
+
+set sort            = threads
+set sort_browser    = date
+set sort_aux        = reverse-last-date-received
+
+#bind index G imap-fetch-mail
+
+#source ~/.mutt/colors/solarized-dark.muttrc
+source ~/.mutt/colors/solarized-light.muttrc
+source ~/.mutt/colors/zenburn.muttrc

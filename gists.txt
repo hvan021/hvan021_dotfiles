@@ -1,0 +1,21 @@
+
+https://wiki.archlinux.org/index.php/Polkit
+
+Allow mounting a filesystem on a system device for a group
+
+The following rule enables mounting a filesystem on a system device for the storage group.
+
+/etc/polkit-1/rules.d/10-enable-mount.rules
+
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.udisks2.filesystem-mount-system" && subject.isInGroup("storage")) {
+        return polkit.Result.YES;
+    }
+});
+
+
+then 
+
+usermod -aG storage username
+
+

@@ -38,6 +38,7 @@
     let g:html_indent_inctags = "html,body,head,tbody"
     let g:html_indent_script1 = "inc"
     let g:html_indent_style1 = "inc"
+    let g:netrw_dirhistmax = 0
 
     " Better copy & paste
     " When you want to paste large blocks of code into vim, press F2 before you
@@ -171,7 +172,9 @@
 " => Editing mappings
 " Remap VIM 0 to first non-blank character
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map 0 ^
+"map 0 ^
+
+vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " Move a line of text using ALT+[jk] or Comamnd+[jk] on mac
 nmap <M-j> mz:m+<cr>`z
@@ -411,9 +414,13 @@ endfunction
        let g:Powerline_symbols = 'unicode'
     elseif has('mac')
         source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
-        let g:Powerline_suymbols = 'fancy'
-    elseif has('linux')
-        set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+        let g:Powerline_symbols = 'fancy'
+    else
+        " python 2.7
+        "set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+        " python 3.4
+        set rtp+=$HOME/.local/lib/python3.4/site-packages/powerline/bindings/vim/
         let g:Powerline_symbols = 'fancy'
     endif
 

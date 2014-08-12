@@ -1,0 +1,9 @@
+!.pentadactyl/info/default/quickmarks
+.pentadactyl/info/default/*
+.mutt/cache/*
+.mutt/.muttrc
+!*.jpg
+!*.png
+.config/libreoffice/*
+
+

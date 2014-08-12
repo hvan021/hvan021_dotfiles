@@ -62,11 +62,13 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
- if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
- else
-   export EDITOR='mvim'
- fi
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#    if [[ $OSTYPE == "darwin"* ]]; then
+#        export EDITOR='mvim'
+#    fi
+# fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -84,9 +86,12 @@ setopt nocorrectall
 #source $HOME/.bash_aliases
 #export POWERLINE_COMMAND=~/Library/Python/2.7/lib/bin/powerline
 
-path+=( ~/Library/Python/2.7/bin )
-
-. ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+if [[ $OSTYPE == "darwin"* ]]; then
+    path+=( ~/Library/Python/2.7/bin )
+    . ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+elif [[ -r ~/.local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
+    source ~/.local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh
+fi
 
 # virtualenvwrapper settings
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
@@ -102,5 +107,9 @@ if [ -e /usr/share/terminfo/x/xterm-256color ]; then
         export TERM='xterm-256color'
 else
         export TERM='xterm-color'
+fi
+
+if [ -f "/etc/arch-release" ] ; then
+    [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 fi
 
