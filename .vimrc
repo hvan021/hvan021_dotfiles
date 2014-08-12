@@ -238,7 +238,7 @@ endif
  set number  " show line numbers
  set tw=79   " width of document (used by gd)
  set nowrap  " don't automatically wrap on load
- "set fo-=t   " don't automatically wrap text when typing
+ set fo-=t   " don't automatically wrap text when typing
 
 " =========================
 " No bullshit folding magic
@@ -475,6 +475,14 @@ let delimitMate_expand_cr = 1
 "" If you want :UltiSnipsEdit to split your window.
 "let g:UltiSnipsEditSplit="vertical"
 
+" ======================================
+" Git gutter color change
+" =====================================
+  highlight clear SignColumn
+  "highlight GitGutterAdd ctermfg=green
+  "highlight GitGutterChange ctermfg=yellow
+  "highlight GitGutterDelete ctermfg=red
+  "highlight GitGutterChangeDelete ctermfg=yellow
 
 " =====================
 " Omnicomplete related stuff
