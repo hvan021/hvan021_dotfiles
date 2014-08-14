@@ -15,6 +15,7 @@
 " }
 
     set encoding=utf-8
+    set guioptions-=T
     "set guioptions=gtrLme
     " Setup Pathogen to manage your plugins
     " mkdir -p ~/.vim/autoload ~/.vim/bundle
@@ -34,7 +35,6 @@
     "autocmd FileType java set completeopt-=preview
     "autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo
     "autocmd Filetype java setlocal omnifunc=javacomplete#Complete
-
     let g:html_indent_inctags = "html,body,head,tbody"
     let g:html_indent_script1 = "inc"
     let g:html_indent_style1 = "inc"
@@ -95,9 +95,7 @@
     vnoremap <Leader>w <C-C>:update<CR>
     inoremap <Leader>w <Esc>:update<CR>
 
-    noremap <Leader>s <nop>
     " sudo save
-
     if has("mac") || has("unix")
         "nnoremap <Leader>W w !sudo tee > /dev/null %
         cmap w!! w !sudo tee % >/dev/null
@@ -128,6 +126,7 @@
     inoremap jk <esc>
     "inoremap kj <esc>
 
+    inoremap <A-;> <end>;
     " easier moving between tabs
     "map gT <esc>:tabprevious<CR>
     "map gt <esc>:tabnext<CR>
@@ -196,6 +195,7 @@ func! DeleteTrailingWS()
   exe "normal `z"
 endfunc
 autocmd BufWrite *.py :call DeleteTrailingWS()
+autocmd BufWrite *.php :call DeleteTrailingWS()
 autocmd BufWrite *.coffee :call DeleteTrailingWS()
 
 
