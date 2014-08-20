@@ -51,8 +51,21 @@ return
 #IfWinActive ahk_class Vim
 Capslock::Ctrl
 
+#IfWinActive ahk_class CabinetWClass
+j::Send {Down}
+Return
 
+#IfWinActive ahk_class CabinetWClass
+k::Send {Up}
+Return
 
+#IfWinActive ahk_class CabinetWClass
+l::Send {F6}
+Return
+
+#IfWinActive ahk_class CabinetWClass
+h::Send +{F6}
+Return
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
 

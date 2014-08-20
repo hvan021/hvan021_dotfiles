@@ -15,6 +15,7 @@
 " }
 
     set encoding=utf-8
+    "set guioptions-=m
     set guioptions-=T
     "set guioptions=gtrLme
     " Setup Pathogen to manage your plugins
@@ -32,6 +33,7 @@
     autocmd FileType css set omnifunc=csscomplete#CompleteCSS
     autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
     autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+    autocmd FileType php set omnifunc=phpcomplete#Complete
     "autocmd FileType java set completeopt-=preview
     "autocmd Filetype java setlocal completefunc=javacomplete#CompleteParamsInfo
     "autocmd Filetype java setlocal omnifunc=javacomplete#Complete
@@ -39,6 +41,12 @@
     let g:html_indent_script1 = "inc"
     let g:html_indent_style1 = "inc"
     let g:netrw_dirhistmax = 0
+
+    " phpcomplete disable Ctrl+] (was conflicting)
+    " see https://github.com/curtismchale/WPTT-Vim-Config/issues/62
+    " https://github.com/shawncplus/phpcomplete.vim/issues/48
+    let g:phpcomplete_enhance_jump_to_definition = 0
+
 
     " Better copy & paste
     " When you want to paste large blocks of code into vim, press F2 before you
@@ -48,7 +56,7 @@
 
     set wildmode=list:longest " make TAB behave like in a shell
     set autoread " reload file when changes happen in other editors
-    set tags=./tags
+    set tags=./tags;$HOME
 
     " Mouse and backspace
     set mouse=a  " on OSX press ALT and click
@@ -126,7 +134,12 @@
     inoremap jk <esc>
     "inoremap kj <esc>
 
-    inoremap <A-;> <end>;
+    inoremap <C-e> <C-O>$
+    inoremap ;; <end>;
+    inoremap {{ <end>{}<left>
+    inoremap <A-p> <C-O>p
+
+    "autocmd FileType php imap <buffer> <C-[> <end>{
     " easier moving between tabs
     "map gT <esc>:tabprevious<CR>
     "map gt <esc>:tabnext<CR>
@@ -167,6 +180,22 @@
         map <Leader>h :tabe /private/etc/hosts <bar> vsp /private/etc/apache2/extra/httpd-vhosts.conf<CR>
     endif
 
+    " Map key to toggle opt
+    "function! MapToggle(key, opt)
+        "let cmd = ':set '.a:opt.'! \| set '.a:opt."?\<CR>"
+        "exec 'nnoremap '.a:key.' '.cmd
+        "exec 'inoremap '.a:key." \<C-O>".cmd
+    "endfunction
+    "command -nargs=+ MapToggle call MapToggle(<f-args>)
+
+    "" Display-altering option toggles
+    "MapToggle <F1> hlsearch
+    "MapToggle <F2> wrap
+
+    nnoremap <F2> :set wrap! wrap?<CR>
+    imap <F2> <C-O><F2>
+    nnoremap <F1> :set hlsearch! hlsearch?<CR>
+    imap <F1> <C-O><F1>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
 " Remap VIM 0 to first non-blank character
@@ -204,6 +233,7 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 " ============================================================================
 
 if has('win32') || has('win64')
+    "set guifont=Source_Code_Pro:h10
     set guifont=Consolas:h10
     "Set vim full screen
     "set lines=55 columns=200
@@ -212,9 +242,9 @@ if has('win32') || has('win64')
     set textwidth=80
     ":autocmd GUIEnter * winpos 1 1
     " set maximize window 
-    "au GUIEnter * simalt ~x 
+    au GUIEnter * simalt ~x 
     " set initial window size
-    set lines=60 columns=120
+    "set lines=60 columns=120
 endif
 
 " =========================
@@ -450,13 +480,15 @@ let delimitMate_expand_cr = 1
 " UltiSnips
 " git clone https://github.com/sirver/ultisnips
 " =====================
-"set runtimepath+=~/.vim/bundle/UltiSnips
+set runtimepath+=~/.vim/bundle/UltiSnips
+let g:snips_author = "Hugh Van"
 "set runtimepath+=~/.vim/snippets
-"let g:UltiSnipsSnippetsDir = "~/.vim/snippets/"
+"let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips/"
 "let g:UltiSnipsSnippetDirectories = ['UltiSnips', 'snippets']
-"let g:UltiSnipsExpandTrigger="<tab>"
-"let g:UltiSnipsJumpForwardTrigger="<tab>"
-"let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsSnippetDirectories = ['UltiSnips']
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " ======================================
 "original settings from Ultisnips  github
