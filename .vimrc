@@ -123,6 +123,17 @@
     map <c-k> <c-w>k
     map <c-l> <c-w>l
     map <c-h> <c-w>h
+    " maximize vertical 
+    map <Leader>- <c-w>_
+    " maximize horizontal
+    map <Leader>\ <c-w><Bar> 
+    " normalize size
+    map <Leader>= <c-w>= 
+    " tear to new tab
+    map <Leader>t <c-w>t 
+
+    " set window minimum height
+    set wmh=0
 
     " provide hjkl movements in Insert mode via the <Alt> modifier key
     inoremap <A-h> <C-o>h
