@@ -47,6 +47,8 @@
     " https://github.com/shawncplus/phpcomplete.vim/issues/48
     let g:phpcomplete_enhance_jump_to_definition = 0
 
+    " vim markdown settings
+    let g:vim_markdown_folding_disabled=1
 
     " Better copy & paste
     " When you want to paste large blocks of code into vim, press F2 before you
@@ -123,6 +125,8 @@
     map <c-k> <c-w>k
     map <c-l> <c-w>l
     map <c-h> <c-w>h
+
+
     " maximize vertical 
     map <Leader>- <c-w>_
     " maximize horizontal
