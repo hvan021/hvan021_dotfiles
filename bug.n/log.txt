@@ -1,0 +1,1518 @@
+2014-08-25 11:49:10 ====== Initializing ======
+2014-08-25 11:49:10 ====== Running ======
+2014-08-25 13:35:49 ====== Cleaning up ======
+2014-08-25 13:35:49 ====== Exiting bug.n ======
+2014-08-25 15:29:59 ====== Initializing ======
+2014-08-25 15:29:59 Window ahk_id 0x101ca process '' doesn't match expected 'Switcher.exe', forgetting this window
+2014-08-25 15:29:59 Window ahk_id 0xc03e8 process '' doesn't match expected 'bug.n-dev.exe', forgetting this window
+2014-08-25 15:29:59 Window ahk_id 0x104a6 process '' doesn't match expected 'bug.n-dev.exe', forgetting this window
+2014-08-25 15:29:59 Window ahk_id 0x204d4 process '' doesn't match expected 'mstsc.exe', forgetting this window
+2014-08-25 15:29:59 Window ahk_id 0x1d03b2 process '' doesn't match expected 'mstsc.exe', forgetting this window
+2014-08-25 15:29:59 Window ahk_id 0x1103dc process '' doesn't match expected 'mstsc.exe', forgetting this window
+2014-08-25 15:29:59 Window ahk_id 0x101c2 process '' doesn't match expected 'Switcher.exe', forgetting this window
+2014-08-25 15:30:00 ====== Running ======
+2014-08-25 15:40:10 ====== Cleaning up ======
+2014-08-25 15:40:10 ====== Exiting bug.n ======
+2014-08-25 15:40:11 ====== Initializing ======
+2014-08-25 15:40:11 ====== Running ======
+2014-08-25 15:41:30 ====== Cleaning up ======
+2014-08-25 15:41:30 ====== Exiting bug.n ======
+2014-08-25 16:09:34 ====== Initializing ======
+2014-08-25 16:09:34 ====== Running ======
+2014-08-25 16:10:07 ====== Cleaning up ======
+2014-08-25 16:10:07 ====== Exiting bug.n ======
+2014-08-26 12:26:06 ====== Initializing ======
+2014-08-26 12:26:06 Window ahk_id 0x1024a process '' doesn't match expected 'firefox.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x10266 process '' doesn't match expected 'ConEmu.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x10176 process 'msseces.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x2003c process '' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x1017a process 'msseces.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x2016e process '' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x10178 process 'msseces.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x10172 process 'msseces.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x200a0 process '' doesn't match expected 'Explorer.EXE', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x1018a process 'Explorer.EXE' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x1018c process 'Explorer.EXE' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x10188 process 'Explorer.EXE' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x100d6 process '' doesn't match expected 'Explorer.EXE', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x1057c process '' doesn't match expected 'SumatraPDF.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x1f0420 process '' doesn't match expected 'gvim.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x304c0 process '' doesn't match expected 'uTorrent.exe', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x4056e process 'ConEmuC.exe' doesn't match expected '', forgetting this window
+2014-08-26 12:26:06 Window ahk_id 0x201fc process '' doesn't match expected 'Explorer.EXE', forgetting this window
+2014-08-26 12:26:07 ====== Running ======
+2014-08-26 15:09:28 ====== Cleaning up ======
+2014-08-26 15:09:29 ====== Exiting bug.n ======
+2014-08-27 11:23:48 ====== Initializing ======
+2014-08-27 11:23:48 Window ahk_id 0x10096 process '' doesn't match expected 'Explorer.EXE', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x16039a process '' doesn't match expected 'explorer.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x702b2 process '' doesn't match expected 'firefox.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x2020a process '' doesn't match expected 'ConEmu.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x10194 process 'msseces.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x10192 process 'msseces.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x10190 process 'msseces.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x1014e process 'Explorer.EXE' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x10142 process 'Explorer.EXE' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x10150 process '' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x1013e process '' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x1014c process 'synergys.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x10148 process 'synergys.exe' doesn't match expected 'sidebar.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x2007c process '' doesn't match expected 'Explorer.EXE', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x201e8 process '' doesn't match expected 'Launchy.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x17024a process '' doesn't match expected 'gvim.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0xd02ec process '' doesn't match expected 'Explorer.EXE', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0xa0472 process '' doesn't match expected 'bug.n-dev.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x13e028a process '' doesn't match expected 'firefox.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x403d8 process '' doesn't match expected 'Launchy.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x600b8 process '' doesn't match expected 'Explorer.EXE', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x1a0266 process '' doesn't match expected 'SumatraPDF.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x602a0 process '' doesn't match expected 'firefox.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x170486 process '' doesn't match expected 'clover.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x3b054c process '' doesn't match expected 'SumatraPDF.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x2305b2 process '' doesn't match expected 'SumatraPDF.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x10672 process '' doesn't match expected 'uTorrent.exe', forgetting this window
+2014-08-27 11:23:48 Window ahk_id 0x106ea process '' doesn't match expected 'uTorrent.exe', forgetting this window
+2014-08-27 11:23:48 ====== Running ======
+2014-08-27 14:39:14 ====== Cleaning up ======
+2014-08-27 14:39:14 ====== Exiting bug.n ======
+2014-08-27 14:39:40 ====== Initializing ======
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:39:40   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:39:40   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:39:40 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:39:40   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:39:40 ====== Running ======
+2014-08-27 14:52:54 ====== Cleaning up ======
+2014-08-27 14:52:55 ====== Exiting bug.n ======
+2014-08-27 14:53:03 ====== Initializing ======
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:53:03   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:53:03   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:53:03 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:53:03   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:53:04 ====== Running ======
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:55:05   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:55:05   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:55:05 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:05   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:55:06   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:55:06   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:55:06 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:06   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:55:07   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:55:07   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:55:07 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:07   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:55:09   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:55:09   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:55:09 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:09   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:55:12   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:55:12   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:55:12 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:55:12   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:57:35   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:57:35   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:57:35 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:57:35   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 14:59:37   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 14:59:37   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 14:59:37 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 14:59:37   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:00:15   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:00:15   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:00:15 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:00:15   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:00:16   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:00:16   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:00:16 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:00:17 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:00:17 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:00:17 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:00:17 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:00:17 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:00:17 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:00:17   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:00:18   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:00:18   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:00:18 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:00:18   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:02:48   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:02:48   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:02:48 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:02:48   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:04:10   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:04:10   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:04:10 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:04:10   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:04:36   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:04:36   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:04:36 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:04:36   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:07:24   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:07:24   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:07:24 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:07:24   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:07:38   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:07:38   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:07:38 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:07:38   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:07:44   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:07:44   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:07:44 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:07:44   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:07:58 ====== Cleaning up ======
+2014-08-27 15:07:59 ====== Exiting bug.n ======
+2014-08-27 15:08:04 ====== Initializing ======
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:08:04   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:08:04   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:08:04 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:08:04   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:08:07 ====== Running ======
+2014-08-27 15:08:33 ====== Cleaning up ======
+2014-08-27 15:08:34 ====== Exiting bug.n ======
+2014-08-27 15:08:38 ====== Initializing ======
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:08:38   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:08:38   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:08:38 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:08:38   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:08:38 ====== Running ======
+2014-08-27 15:09:23 ====== Cleaning up ======
+2014-08-27 15:09:23 ====== Exiting bug.n ======
+2014-08-27 15:09:31 ====== Initializing ======
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:09:31   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:09:31   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:09:31 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:09:31   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:09:32 ====== Running ======
+2014-08-27 15:10:09 ====== Cleaning up ======
+2014-08-27 15:10:10 ====== Exiting bug.n ======
+2014-08-27 15:10:12 ====== Initializing ======
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#c::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-27 15:10:12   Hotkey: #k -> Manager_closeWindow()
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#i::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-27 15:10:12   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#5::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#6::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#7::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#8::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#9::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-27 15:10:12 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-27 15:10:12   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-27 15:10:13 ====== Running ======
+2014-08-27 17:04:34 ====== Cleaning up ======
+2014-08-27 17:04:34 ====== Exiting bug.n ======
+2014-08-28 10:47:42 ====== Initializing ======
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 10:47:42   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 10:47:42   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 10:47:42 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 10:47:42   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 10:47:42 ====== Running ======
+2014-08-28 11:02:48 ====== Cleaning up ======
+2014-08-28 11:02:49 ====== Exiting bug.n ======
+2014-08-28 11:02:49 ====== Initializing ======
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 11:02:49   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 11:02:49   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 11:02:49 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 11:02:49   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 11:02:49 ====== Running ======
+2014-08-28 11:03:14 ====== Cleaning up ======
+2014-08-28 11:03:15 ====== Exiting bug.n ======
+2014-08-28 11:03:15 ====== Initializing ======
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 11:03:15   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 11:03:15   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 11:03:15 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 11:03:15   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 11:03:15 ====== Running ======
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 12:15:17   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 12:15:17   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 12:15:17   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 12:15:17 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1) 
+2014-08-28 12:15:17   Hotkey: !+j -> View_ShuffleWindow(+1) 
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 12:16:04   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 12:16:04   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 12:16:04   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1) 
+2014-08-28 12:16:04   Hotkey: !+j -> View_ShuffleWindow(+1) 
+2014-08-28 12:16:04 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 12:16:04   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 12:16:09   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 12:16:09   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 12:16:09 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 12:16:10   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1) 
+2014-08-28 12:16:10   Hotkey: !+j -> View_ShuffleWindow(+1) 
+2014-08-28 12:16:10 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 12:16:10   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:24:34   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:24:34   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:24:34   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1) 
+2014-08-28 13:24:34   Hotkey: !+j -> View_ShuffleWindow(+1) 
+2014-08-28 13:24:34 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 13:24:34   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:26:48   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:26:48   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:26:48   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1)::View_ActivateWindow(+1) 
+2014-08-28 13:26:48   Hotkey: !+j -> View_ShuffleWindow(+1)::View_ActivateWindow(+1) 
+2014-08-28 13:26:48 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 13:26:48   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 13:27:09 ====== Cleaning up ======
+2014-08-28 13:27:09 ====== Exiting bug.n ======
+2014-08-28 13:27:09 ====== Initializing ======
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:27:10   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:27:10   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:27:10   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1)::View_ActivateWindow(+1) 
+2014-08-28 13:27:10   Hotkey: !+j -> View_ShuffleWindow(+1)::View_ActivateWindow(+1) 
+2014-08-28 13:27:10 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 13:27:10   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 13:27:11 ====== Running ======
+2014-08-28 13:31:49 ====== Cleaning up ======
+2014-08-28 13:31:49 ====== Exiting bug.n ======
+2014-08-28 13:31:49 ====== Initializing ======
+2014-08-28 13:31:49 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:31:49 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:31:49   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:31:50   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:31:50   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1) | View_ActivateWindow(+1) 
+2014-08-28 13:31:50   Hotkey: !+j -> View_ShuffleWindow(+1) | View_ActivateWindow(+1) 
+2014-08-28 13:31:50 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 13:31:50   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 13:31:51 ====== Running ======
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:32:34   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:32:34   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:32:34   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1) & View_ActivateWindow(+1) 
+2014-08-28 13:32:34   Hotkey: !+j -> View_ShuffleWindow(+1) & View_ActivateWindow(+1) 
+2014-08-28 13:32:34 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 13:32:34   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:33:28   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:33:28   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:33:28   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=!+j::View_ShuffleWindow(+1) ; View_ActivateWindow(+1) 
+2014-08-28 13:33:28   Hotkey: !+j -> View_ShuffleWindow(+1) ; View_ActivateWindow(+1) 
+2014-08-28 13:33:28 Processing configured hotkey: Config_hotkey=!+k::View_ShuffleWindow(-1) 
+2014-08-28 13:33:28   Hotkey: !+k -> View_ShuffleWindow(-1) 
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:34:38   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:34:38   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:34:38   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=!+j::View_ActivateWindow(+1)
+2014-08-28 13:34:38   Hotkey: !+j -> View_ActivateWindow(+1)
+2014-08-28 13:34:38 Processing configured hotkey: Config_hotkey=!+k::View_ActivateWindow(-1)
+2014-08-28 13:34:39   Hotkey: !+k -> View_ActivateWindow(-1)
+2014-08-28 13:35:00 ====== Cleaning up ======
+2014-08-28 13:35:01 ====== Exiting bug.n ======
+2014-08-28 13:35:01 ====== Initializing ======
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:35:01   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:35:01   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:35:01   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=!+j::View_ActivateWindow(+1)
+2014-08-28 13:35:01   Hotkey: !+j -> View_ActivateWindow(+1)
+2014-08-28 13:35:01 Processing configured hotkey: Config_hotkey=!+k::View_ActivateWindow(-1)
+2014-08-28 13:35:01   Hotkey: !+k -> View_ActivateWindow(-1)
+2014-08-28 13:35:01 ====== Running ======
+2014-08-28 13:37:15 ====== Cleaning up ======
+2014-08-28 13:37:15 ====== Exiting bug.n ======
+2014-08-28 13:37:15 ====== Initializing ======
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:37:15   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:37:15   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:37:15   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:37:15   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:37:15 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:37:15   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:37:16 ====== Running ======
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:38:40   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:38:40   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:38:40   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:38:40   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:38:40   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:38:40 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:38:40   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:42:15   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:42:15   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:42:15   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:42:15   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:42:15   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:42:15 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:42:15   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:42:31 ====== Cleaning up ======
+2014-08-28 13:42:31 ====== Exiting bug.n ======
+2014-08-28 13:42:31 ====== Initializing ======
+2014-08-28 13:42:31 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:42:31 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:42:32   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:42:32   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:42:32   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:42:32   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:42:32   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:42:32 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:42:32   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:42:32 ====== Running ======
+2014-08-28 13:44:32 ====== Cleaning up ======
+2014-08-28 13:44:32 ====== Exiting bug.n ======
+2014-08-28 13:44:32 ====== Initializing ======
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:44:32   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:44:32   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:44:32   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:44:32   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:44:32   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:44:32 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:44:32   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:44:33 ====== Running ======
+2014-08-28 13:45:59 ====== Cleaning up ======
+2014-08-28 13:45:59 ====== Exiting bug.n ======
+2014-08-28 13:45:59 ====== Initializing ======
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:45:59   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:45:59   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:45:59   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:45:59   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:45:59   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:45:59 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:45:59   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:46:00 ====== Running ======
+2014-08-28 13:48:02 ====== Cleaning up ======
+2014-08-28 13:48:02 ====== Exiting bug.n ======
+2014-08-28 13:48:03 ====== Initializing ======
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:48:03   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:48:03   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:48:03   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:48:03   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:48:03   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:48:03 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:48:03   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:48:03 ====== Running ======
+2014-08-28 13:48:30 ====== Cleaning up ======
+2014-08-28 13:48:30 ====== Exiting bug.n ======
+2014-08-28 13:48:31 ====== Initializing ======
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:48:31   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:48:31   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:48:31   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:48:31   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:48:31   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:48:31 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:48:31   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:48:31 ====== Running ======
+2014-08-28 13:48:55 ====== Cleaning up ======
+2014-08-28 13:48:56 ====== Exiting bug.n ======
+2014-08-28 13:48:56 ====== Initializing ======
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:48:56   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:48:56   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:48:56   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:48:56   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:48:56   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:48:56 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:48:56   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:48:57 ====== Running ======
+2014-08-28 13:49:11 ====== Cleaning up ======
+2014-08-28 13:49:12 ====== Exiting bug.n ======
+2014-08-28 13:49:12 ====== Initializing ======
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 13:49:12   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 13:49:12   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 13:49:12   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 13:49:12   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 13:49:12   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 13:49:12 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 13:49:12   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 13:49:13 ====== Running ======
+2014-08-28 14:03:40 ====== Cleaning up ======
+2014-08-28 14:03:41 ====== Exiting bug.n ======
+2014-08-28 14:03:41 ====== Initializing ======
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 14:03:41   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 14:03:41   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 14:03:41   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 14:03:41   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 14:03:41   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 14:03:41   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=^+Space::Monitor_toggleBar()
+2014-08-28 14:03:41   Hotkey: ^+Space -> Monitor_toggleBar()
+2014-08-28 14:03:41 Processing configured hotkey: Config_hotkey=^+Backspace::View_toggleStackArea()
+2014-08-28 14:03:41   Hotkey: ^+Backspace -> View_toggleStackArea()
+2014-08-28 14:03:42 ====== Running ======
+2014-08-28 14:09:02 ====== Cleaning up ======
+2014-08-28 14:09:03 ====== Exiting bug.n ======
+2014-08-28 14:09:03 ====== Initializing ======
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 14:09:03   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 14:09:03   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 14:09:03   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 14:09:03   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 14:09:03   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 14:09:03   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=^+Space::Monitor_toggleBar()
+2014-08-28 14:09:03   Hotkey: ^+Space -> Monitor_toggleBar()
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=^+Backspace::View_toggleStackArea()
+2014-08-28 14:09:03   Hotkey: ^+Backspace -> View_toggleStackArea()
+2014-08-28 14:09:03 Processing configured hotkey: Config_hotkey=^+m::Manager_moveWindow()
+2014-08-28 14:09:03   Hotkey: ^+m -> Manager_moveWindow()
+2014-08-28 14:09:04 ====== Running ======
+2014-08-28 14:16:11 ====== Cleaning up ======
+2014-08-28 14:16:12 ====== Exiting bug.n ======
+2014-08-28 14:16:12 ====== Initializing ======
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 14:16:12   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 14:16:12   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 14:16:12   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 14:16:12   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 14:16:12   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 14:16:12   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+Space::Monitor_toggleBar()
+2014-08-28 14:16:12   Hotkey: ^+Space -> Monitor_toggleBar()
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+Backspace::View_toggleStackArea()
+2014-08-28 14:16:12   Hotkey: ^+Backspace -> View_toggleStackArea()
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+m::Manager_moveWindow()
+2014-08-28 14:16:12   Hotkey: ^+m -> Manager_moveWindow()
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+Left::View_setMFactor(-0.1)
+2014-08-28 14:16:12   Hotkey: ^+Left -> View_setMFactor(-0.1)
+2014-08-28 14:16:12 Processing configured hotkey: Config_hotkey=^+Right::View_setMFactor(+0.1)
+2014-08-28 14:16:12   Hotkey: ^+Right -> View_setMFactor(+0.1)
+2014-08-28 14:16:13 ====== Running ======
+2014-08-28 14:23:30 ====== Cleaning up ======
+2014-08-28 14:23:31 ====== Exiting bug.n ======
+2014-08-28 14:23:49 ====== Initializing ======
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#c::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-28 14:23:49   Hotkey: #k -> Manager_closeWindow()
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#i::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-28 14:23:49   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#5::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#6::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#7::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#8::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-28 14:23:49 Processing configured hotkey: Config_hotkey=#9::
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-28 14:23:50   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+j::View_ActivateWindow(+1)
+2014-08-28 14:23:50   Hotkey: ^+j -> View_ActivateWindow(+1)
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+k::View_ActivateWindow(-1)
+2014-08-28 14:23:50   Hotkey: ^+k -> View_ActivateWindow(-1)
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+Enter::View_shuffleWindow(0)
+2014-08-28 14:23:50   Hotkey: ^+Enter -> View_shuffleWindow(0)
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+Space::Monitor_toggleBar()
+2014-08-28 14:23:50   Hotkey: ^+Space -> Monitor_toggleBar()
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+Backspace::View_toggleStackArea()
+2014-08-28 14:23:50   Hotkey: ^+Backspace -> View_toggleStackArea()
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+m::Manager_moveWindow()
+2014-08-28 14:23:50   Hotkey: ^+m -> Manager_moveWindow()
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+Left::View_setMFactor(-0.1)
+2014-08-28 14:23:50   Hotkey: ^+Left -> View_setMFactor(-0.1)
+2014-08-28 14:23:50 Processing configured hotkey: Config_hotkey=^+Right::View_setMFactor(+0.1)
+2014-08-28 14:23:50   Hotkey: ^+Right -> View_setMFactor(+0.1)
+2014-08-28 14:23:50 ====== Running ======
+2014-08-28 17:18:40 ====== Cleaning up ======
+2014-08-28 17:18:40 ====== Exiting bug.n ======
+2014-08-29 09:33:26 ====== Initializing ======
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#c::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#k::Manager_closeWindow()
+2014-08-29 09:33:26   Hotkey: #k -> Manager_closeWindow()
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#i::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#^i::Manager_getWindowInfo()
+2014-08-29 09:33:26   Hotkey: #^i -> Manager_getWindowInfo()
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#5::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#+5::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#^5::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#6::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#+6::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#^6::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#7::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#+7::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#^7::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#8::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#+8::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#^8::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#9::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#+9::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#^9::
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=#r::Manager_onShellMessage(2, 268435455)
+2014-08-29 09:33:26   Hotkey: #r -> Manager_onShellMessage(2, 268435455)
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=^!j::View_ActivateWindow(+1)
+2014-08-29 09:33:26   Hotkey: ^!j -> View_ActivateWindow(+1)
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=^!k::View_ActivateWindow(-1)
+2014-08-29 09:33:26   Hotkey: ^!k -> View_ActivateWindow(-1)
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=^!Enter::View_shuffleWindow(0)
+2014-08-29 09:33:26   Hotkey: ^!Enter -> View_shuffleWindow(0)
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=^!Space::Monitor_toggleBar()
+2014-08-29 09:33:26   Hotkey: ^!Space -> Monitor_toggleBar()
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=^!Backspace::View_toggleStackArea()
+2014-08-29 09:33:26   Hotkey: ^!Backspace -> View_toggleStackArea()
+2014-08-29 09:33:26 Processing configured hotkey: Config_hotkey=^!m::Manager_moveWindow()
+2014-08-29 09:33:26   Hotkey: ^!m -> Manager_moveWindow()
+2014-08-29 09:33:27 Processing configured hotkey: Config_hotkey=^!Left::View_setMFactor(-0.1)
+2014-08-29 09:33:27   Hotkey: ^!Left -> View_setMFactor(-0.1)
+2014-08-29 09:33:27 Processing configured hotkey: Config_hotkey=^!Right::View_setMFactor(+0.1)
+2014-08-29 09:33:27   Hotkey: ^!Right -> View_setMFactor(+0.1)
+2014-08-29 09:33:27 ====== Running ======

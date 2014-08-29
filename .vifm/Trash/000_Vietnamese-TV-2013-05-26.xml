@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='http://langsongviet.com/fta4vnForum/upload/forum.php'?>
+<!-- Official Site: http://langsongviet.com/fta4vnForum/upload/forum.php -->
+<!-- Channel list: VN Channels -->
+<!-- Last Update: 05.26.2013 by Silverfox -->
+<thumbnail>http://t1.gstatic.com/images?q=tbn:ANd9GcRga29rOEae4t3HwWbTthflaiIwbQI0uQXfX-6OpoiYm_zS6SOQ</thumbnail>
+
+<channels>
+<channel>
+<name>VietnamTV (Hai Ngoai)</name>
+<info>Moi cac ban xem TV Viet Nam. Neu ban thich TV, ban co the donate tang tien qua Paypal den dia chi http://langsongviet.com/fta4vnForum/upload/awcl_dsl.php?do=donation, it hay nhieu khong quan trong chung toi deu cam ta, tien quyen tang giup chung toi phat trien cac kenh TV ngay cang tot hon.</info>
+<thumbnail>http://LangSongViet.com/fta4vnForum/upload/uploaded/26_1365180982.png</thumbnail>
+<language>Vietnamese</language>
+
+<!--Viettv24 - MTV: Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>Viettv24 - MTV</title>
+<link>rtmp://www.evietmusic.com/liveStream playpath=mtv_1 swfUrl=http://www.viettv24.com/player.swf pageUrl=http://www.viettv24.com/main/?language=vi  live=1 timeout=10</link></link>
+<thumbnail>http://www.viettv24.com/main/images/Vmusic_logo.jpg</thumbnail>
+</item>
+
+<!--Viettv24 Dallas: Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>Viettv24 - VietDallas</title>
+<link>rtmp://206.217.221.127/vietdallas playpath=vdallas_1  swfUrl=http://www.viettv24.com/player.swf pageUrl=http://www.viettv24.com/main/?language=vi live=1 timeout=10</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!--Viettv24 Ngoi Sao Tuong Lai: Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>Viettv24 - Ngoi sao Tuong Lai</title>
+<link>rtmp://206.217.221.127/ngstl playpath=ngstl_1 swfUrl=http://www.viettv24.com/player.swf pageUrl=http://www.viettv24.com/main/?language=vi live=1 timeout=10</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!--Viettv24 Vietsaigon: Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>Viettv24 - VietSaigon</title>
+<link>rtmp://206.217.221.127/vietsaigon playpath=vsaigon_1 swfUrl=http://www.viettv24.com/player.swf pageUrl=http://www.viettv24.com/main/?language=vi live=1 timeout=10</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!-- Last Update: 04.10.2013 by Silverfox -->
+<item>
+<title>Viettv24 - POP TV</title>
+<link>rtmp://www.evietmusic.com/liveStream playpath=vpoptv_1 swfUrl=http://www.viettv24.com/player.swf  pageUrl=http://www.viettv24.com/main/?language=vi live=1 timeout=10</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!-- Last Update: 04.07.2013 by Silverfox -->
+<item>
+<title>Viettoday TV</title>
+<link>http://shared.streamwebtown.com/dong_sg</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!-- Last Update: 04.07.2013 by Silverfox -->
+<item>
+<title>Viet Christian TV</title>
+<link>mms://live.vietchristian.com/tv</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!-- Last Update: 054.24.2013 by Silverfox -->
+<item>
+<title>VNA TV 57.3 </title>
+<link>rtmp://206.217.221.127/vnatv/ playpath=vnatv_1  swfUrl=http://thvl.vn/vplayer.swf  pageUrl=http://nguoiviet.tv/vnatv/ live=1 timeout=10</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>Little Saigon TV</title>
+<link>rtmp://stream.s15.cpanelservices.com/lstvlive/livestream swfUrl=http://vietpho.com/ext/js/5.1/player-licensed.swf pageUrl=http://vietpho.com/online-channels.php live=true swfVfy=true timeout=10</link>
+<thumbnail>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTWQGGsRHtaTLOnVo9psYoLXNmRuBVS6PvnRbYbXXw1f_JzJUVOUQ</thumbnail>
+</item>
+
+<!-- Last Update: 04.10.2013 by Silverfox -->
+<item>
+<title>Saigon TV</title>
+<link>rtmp://74.63.219.101:1935/sgtele playpath=myStream.sdp swfUrl=http://saigontv.us/includes/flash/saigontv.swf pageUrl=http://saigontv.us/ live=true timeout=10</link>
+<thumbnail>http://www.vietfilmfest.com/2011/images/saigon-tv-logo.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>VBS Televition</title>
+<link>rtmp://74.63.219.101:1935/vbstele/myStream.sdp swfUrl=http://vietpho.com/ext/js/3/mediaplayer.swf pageUrl=http://vietpho.com/ live=true timeout=10</link>
+<thumbnail>http://vbsdistribution.com/images/forms/vbs_logo.png</thumbnail>
+</item>
+
+<!-- Last Update: 04.10.2013 by Silverfox -->
+<item>
+<title>VietFace TV - US Canada</title>
+<link>rtmp://206.217.221.127/vietface/vface_1 swfUrl=http://thvl.vn/vplayer.swf pageUrl=http://nguoiviet.tv/vietfacetv live=true timeout=10</link>
+<thumbnail>http://LangSongViet.com/fta4vnForum/upload/uploaded/26_1365560022.png</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>Global TV</title>
+<link>rtmp://unirtmp.tulix.tv/globaltv/myStream.sdp live=true timeout=10</link>
+<thumbnail>http://www.globaltv.com/uploadedimages/content/schedule/default.jpg?size=140x90</thumbnail>
+</item>
+
+<!-- Last Update: 04.16.2013 by Silverfox -->
+<item>
+<title>SET TV – Saigon Entertainment 57.4</title>
+<link>rtmp://206.217.221.127/set/set_1 swfUrl=http://thvl.vn/vplayer.swf pageUrl=http://nguoiviet.tv/set/ live=true timeout=10</link>
+<thumbnail>http://googletivi.com/images/tv/setv.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 05.24.2013 by Silverfox -->
+<item>
+<title>VAN TV - Houston 55.2</title>
+<link>rtmp://live245.4ktech.net/ivan playpath=livestream?adbe-live-event=liveevent  swfUrl=http://vantvonline.com/player/4ktech.commercial-3.2.5.swf?0.503298773958942  pageUrl=http://vantv552.com/ live=true timeout=10</link>
+<thumbnail>http://www.552vantv.com/Van_TV_Logo__1.png</thumbnail>
+</item>
+
+<!-- Last Update: 05.09.2013 by Silverfox -->
+<item>
+<title>Pho Viet TV – Nam California</title>
+<link>rtmp://unirtmp.tulix.tv:1935/globaltv9 playpath=myStream.sdp swfUrl=http://www.streamwebtown.com/mediaplayer/player.swf  pageUrl=http://nguoiviet.tv/phoviettv/ live=true timeout=10</link>
+<thumbnail>http://nguoiviet.tv/images/tv/phoviettv70x40.png</thumbnail>
+</item>
+
+<!-- Last Update: 05.09.2013 by Silverfox -->
+<item>
+<title>Phat Tu Bi TV</title>
+<link>rtmp://206.217.221.127/liveStream/ playpath=ptb_1 swfUrl=http://thvl.vn/vplayer.swf pageUrl=http://nguoiviet.tv/phat-tu-bi/ live=true timeout=10</link>
+<thumbnail>https://lh3.ggpht.com/n99gSE9Y4gPvG5nz8XhlqRGE8BvEBm3l_h9XodBRZ6KmHjj889V63WC2-oeeCJuVLLU=w124</thumbnail>
+</item>
+
+<!-- Last Update: 05.09.2013 by Silverfox -->
+<item>
+<title>VietPower TV</title>
+<link>rtmp://unirtmp.tulix.tv:1935/globaltv3 playpath=myStream.sdp swfUrl=http://www.streamwebtown.com/mediaplayer/player.swf  pageUrl=http://nguoiviet.tv/vietpower-tv/ live=true timeout=10</link>
+<thumbnail>http://nguoiviet.tv/images/tv/vietpowertv70x40.png</thumbnail>
+</item>
+
+<!-- Last Update: 05.09.2013 by Silverfox -->
+<item>
+<title>NT TV – Nhat Truong Channel 51.5 – Houston, TX</title>
+<link>rtmp://206.217.221.127/nhattruong/ playpath=ttt_1 swfUrl=http://thvl.vn/vplayer.swf pageUrl=http://nguoiviet.tv/nhat-truong-channel-515/ live=true timeout=10</link>
+<thumbnail>http://nguoiviet.tv/images/tv/nhatruongchannel51570x40.png</thumbnail>
+</item>
+
+<!-- Last Update: 04.15.2013 by Silverfox -->
+<item>
+<title>ThuanViet - HD</title>
+<link>http://203.162.16.22:80/lives/origin01/bts-thuanviethd.isml/bts-thuanviethd.m3u8</link>
+<thumbnail>http://www.thematv.com/images/channels/thuan-viet.png</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>ThuanViet TV - SD</title>
+<link>rtmp://203.205.0.60:1935/live/thuanviet swfUrl=http://www.htvc.vn/swfs/StrobeMediaPlayback.swf pageUrl=http://www.htvc.vn live=true timeout=10</link>
+<thumbnail>http://www.htvc.vn/files/banner/67/68/thuanviet_tt.gif</thumbnail>
+</item>
+
+</items>
+</channel>
+
+<channel>
+<name> ->>TV Viet nam - (TH Trong Nuoc)</name>
+<thumbnail>http://langsongviet.com/fta4vnForum/upload/uploaded/5_1363744171.png</thumbnail>
+<info>
+Mời các bạn xem các chương trình truyền hình Thể Thao. Nếu bạn thích TV, bạn có thể donate tặng tiền qua Paypal đến địa chỉ: http://langsongviet.com/fta4vnForum/upload/awcl_dsl.php?do=donation
+Dù ít hay nhiều không quan trọng, chúng tôi đều cảm tạ, tiền quyên tặng giúp chúng tôi phát triển các kênh TV ngày càng tốt hơn.
+</info>
+<items>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>Life TV</title>
+<link>rtmp://video.lifetv.vn/live/Stream1</link>
+<thumbnail>none</thumbnail>
+</item>
+
+<!-- Last Update: 05.02.2013 by Silverfox -->
+<item>
+<title>Nhac Cua Tui</title>
+<link>rtmp://123.30.134.108:1935/live/nctlive timeout=10</link>
+<thumbnail>http://www.tivi.goldpagemedia.com/images/upload/channel/20121110/logo/source/1352515330_2.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 05.20.2013 by Silverfox -->
+<item>
+<title>iTV - Music</title>
+<link>rtmp://live.kenhitv.vn/live/ playpath=itvw_hhh swfUrl=http://player.longtailvideo.com/player.swf pageUrl=http://www.xemtruyenhinh.net/ live=true timeout=10</link>
+<thumbnail>http://4.bp.blogspot.com/_SSxTMXDimpc/TS6GraPp1KI/AAAAAAAAAEg/9jov2N-u4f4/s1600/itv.gif</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>HTVC - Phim HD Tong Hop</title>
+<link>rtmp://203.205.0.60:1935/live/phim swfUrl=http://www.htvc.vn/swfs/StrobeMediaPlayback.swf pageUrl=http://www.htvc.vn/ live=true timeout=10</link>
+<thumbnail>http://www.htvc.vn/files/banner/69/70/phim_tt.gif</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>HTVC - Ca Nhac</title>
+<link>rtmp://203.205.0.60:1935/live/canhac swfUrl=http://www.htvc.vn/swfs/StrobeMediaPlayback.swf pageUrl=http://www.htvc.vn/ live=true timeout=10</link>
+<thumbnail>http://2.bp.blogspot.com/-6kckH68O7mo/TtcajHPZ0TI/AAAAAAAAAhE/PkeeJp0m5vE/s1600/HTV2.gif</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>HTVC - Gia Đinh</title>
+<link>rtmp://203.205.0.60:1935/live/giadinh swfUrl=http://www.htvc.vn/swfs/StrobeMediaPlayback.swf pageUrl=http://www.htvc.vn/ live=true timeout=10</link>
+<thumbnail>http://2.bp.blogspot.com/-Z2a6p47GYOE/TtcajzGqGtI/AAAAAAAAAhM/KkaEjNfndbA/s1600/HTV3.gif</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>HTVC - Du Lich va Cuoc Song</title>
+<link>rtmp://203.205.0.60:1935/live/dulich swfUrl=http://www.htvc.vn/swfs/StrobeMediaPlayback.swf pageUrl=http://www.htvc.vn/ live=true timeout=10</link>
+<thumbnail>http://1.bp.blogspot.com/-XougkSm2GG8/TkNFL8Q5-cI/AAAAAAAAAa8/NniQoXdQ57k/s1600/htv4.PNG</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>HTVC - Phu Nu</title>
+<link>rtmp://203.205.0.60:1935/live/phunu swfUrl=http://www.htvc.vn/swfs/StrobeMediaPlayback.swf pageUrl=http://www.htvc.vn/ live=true timeout=10</link>
+<thumbnail>http://2.bp.blogspot.com/-Re2v12BkHao/TtchNbSA8pI/AAAAAAAAAhs/ms02VVTponc/s1600/HTV7.gif</thumbnail>
+</item>
+
+<!-- Last Update: 05.09.2013 by Silverfox -->
+<item>
+<title>HTV2 - HTV2</title>
+<link>rtmp://m35.megafun.vn/hctv playpath=vstv001 swfUrl=http://thvl.vn/vplayer.swf  pageUrl=http://www.tivi.goldpagemedia.com/channel/htv2.35A4E982.html live=true timeout=10</link>
+<thumbnail>http://www.tivi.goldpagemedia.com/images/upload/channel/20130123/logo/source/1358926156_htv2.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 05.09.2013 by Silverfox -->
+<item>
+<title>HTV7 - Thong Tin, Giai Tri, The Thao</title>
+<link>rtmp://m35.megafun.vn/hctv playpath=vstv015 swfUrl=http://thvl.vn/vplayer.swf  pageUrl=http://www.tivi.goldpagemedia.com/channel/ttin-giai-tri-tthao.35A4E91D.html live=true timeout=10</link>
+<thumbnail>http://www.tivi.goldpagemedia.com/images/upload/channel/20121105/logo/source/1352111186_tv_home_12.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 1 - Kenh Hai</title>
+<link>http://112.197.2.16:1935/live/SDsctv2.stream/playlist.m3u8</link>
+<thumbnail>http://4.bp.blogspot.com/-_py2zcV1OUU/TexjT58wesI/AAAAAAAAAUA/jEdkMWakm5E/s1600/sctv1.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 2 - Am Nhac Quoc Te</title>
+<link>http://112.197.2.16:1935/live/SDsctv2.stream/playlist.m3u8</link>
+<thumbnail>http://3.bp.blogspot.com/-x7mfg7oUNIE/TexjUWF1GGI/AAAAAAAAAUE/WGmCcndbnbg/s1600/sctv2.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 4 - Kenh Tong Hop</title>
+<link>http://112.197.2.16:1935/live/SDsctv4.stream/playlist.m3u8</link>
+<thumbnail>http://1.bp.blogspot.com/-aK9IKreVWFc/TexjVbp3NTI/AAAAAAAAAUM/4Lf_qmHQ_4o/s1600/sctv4.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 6 - Kenh Song Nhac</title>
+<link>http://112.197.2.16:1935/live/SDsctv6.stream/playlist.m3u8</link>
+<thumbnail>http://3.bp.blogspot.com/-IIjtP_rnmP4/TexjWQh4PFI/AAAAAAAAAUU/VvILXiZLMrQ/s1600/sctv6.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 7 - San Khau Van Nghe Tong Hop</title>
+<link>http://112.197.2.16:1935/live/SDsctv7.stream/playlist.m3u8</link>
+<thumbnail>http://1.bp.blogspot.com/-ocktnMqBnpI/TexjWzVfTpI/AAAAAAAAAUY/MnkKeg_THfg/s1600/sctv7.jpg</thumbnail>
+</item>
+ 
+<item>
+<title>SCTV 9 - Kenh Phim Chau A</title>
+<link>http://112.197.2.16:1935/live/SDsctv9.stream/playlist.m3u8</link>
+<thumbnail>http://3.bp.blogspot.com/-iqv41PQaYTw/TexjX8c3V7I/AAAAAAAAAUg/mD7H3h4J5eg/s1600/sctv9.jpg</thumbnail>
+</item>
+
+<item>
+<title>SCTV 11 - Hat Tren Truyen Hinh</title>
+<link>http://112.197.2.16:1935/live/SDsctv11.stream/playlist.m3u8</link>
+<thumbnail>http://luaviet.co/content/uploads/2011/10/Logo-SCTV11.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 14 - Kenh Phim Tieng Viet</title>
+<link>http://112.197.2.16:1935/live/SDsctv14.stream/playlist.m3u8</link>
+<thumbnail>http://image2.vctv.vn/Images/Uploaded/Share/2011/11/09/SCTV14.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 15 - Kenh The Thao</title>
+<link>http://112.197.2.16:1935/live/SDsctv15.stream/playlist.m3u8</link>
+<thumbnail>http://liveradio.super-resources.com/wp-content/uploads/2011/12/sctv15.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 16 - Kenh Phim Truyen</title>
+<link>http://112.197.2.16:1935/live/sctv16.stream/playlist.m3u8</link>
+<thumbnail>http://www.dailytv.net/uploads/thumbs/592050dda-1.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 17 - Kenh Phim Truyen Chon Loc</title>
+<link>http://112.197.2.16:1935/live/SDsctv17.stream/playlist.m3u8</link>
+<thumbnail>http://www.dailytv.net/uploads/thumbs/238545668-1.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>SCTV 18 - Kenh The Thao HD</title>
+<link>http://112.197.2.16:1935/live/SDsctv18.stream/playlist.m3u8</link>
+<thumbnail>http://www.dailytv.net/uploads/thumbs/d93043d8b-1.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 05.20.2013 by Silverfox -->
+<item>
+<title>VTV 1</title>
+<link>rtmp://m35.megafun.vn/hctv playpath=vstv002  swfUrl=http://megafun.vn/common/player/player.swf pageUrl=http://www.tivi360.com/2011/07/vtv1-xem-vtv1-vtv1-online-sever-megafun.html live=true timeout=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtv1_vn.jpg</thumbnail>
+<epg>http://vtv.vn/LichPS/Index</epg>
+</item>
+ 
+<!-- Last Update: 05.20.2013 by Silverfox -->
+<item>
+<title>VTV 2</title>
+<link>rtmp://111.91.233.198:1935/live playpath=vtv2_h swfUrl=http://www.vtc.com.vn/player_akamai_low.swf  pageUrl=http://www.vtc.com.vn/live/10/VTV2.html</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtv2_vn.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 05.20.2013 by Silverfox -->
+<item>
+<title>VTV 3</title>
+<link>rtmp://m35.megafun.vn/hctv playpath=vstv004 swfUrl=http://megafun.vn/common/player/player.swf pageUrl=http://www.tivi360.com/2011/07/vtv3-kenh-vtv3-sever-megafun.html live=true timeout=1</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtv3_vn.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 05.20.2013 by Silverfox -->
+<item>
+<title>VTV 4</title>
+<link>rtmp://111.91.233.197:1935/live playpath=vtv4_h swfUrl=http://www.vtc.com.vn/player_akamai_low.swf  pageUrl=http://www.vtc.com.vn/live/12/VTV4.html</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtv4_vn.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>VTV 6</title>
+<link>rtmp://m35.megafun.vn/hctv playpath=vstv014 swfUrl=http://megafun.vn/common/player/player.swf pageUrl=http://www.tivi360.com/2012/08/kenh-vtv6-online.html#main live=true timeout=10</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtv6_vn.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>VTC 1</title>
+<link>rtmp://111.91.233.197:1935/live playpath=vtc11_h swfUrl=http://www.vtc.com.vn/player_akamai_low.swf live=true pageUrl=http://www.vtc.com.vn/ timeout=10</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtc_1.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>VTC2</title>
+<link>rtmp://111.91.233.197:1935/live playpath=vtc21_h swfUrl=http://www.vtc.com.vn/player_akamai_low.swf live=true pageUrl=http://www.vtc.com.vn/ timeout=10</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtc_2.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>VTC10</title>
+<link>rtmp://111.91.233.197:1935/live playpath=vtc101_h swfUrl=http://www.vtc.com.vn/player_akamai_low.swf live=true pageUrl=http://www.vtc.com.vn/ timeout=10</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/vv/vtc_10.jpg</thumbnail>
+</item> 
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>TRT 1 - Thua Thien Hue</title>
+<link>rtmp://118.69.176.149/live/trt swfUrl=http://tv.xunghe.vn/player.swf pageUrl=http://tv.xunghe.vn/ live=true timeout=10</link>
+<thumbnail>http://tv.xunghe.vn/images/logo/hue.gif</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>THTG - Tien Giang</title>
+<link>mms://118.69.201.97/rtv live=true timeout=10</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/tt/tien_giang_tv.jpg</thumbnail>
+</item>
+</items>
+<items>
+<name>Truyen Hinh Đia Phuong (Tinh, Thanh Pho)</name>
+<info>Moi cac ban xem TV Viet Nam. Neu ban thich TV, ban co the donate tang tien qua Paypal den dia chi http://langsongviet.com/fta4vnForum/upload/awcl_dsl.php?do=donation, it hay nhieu khong quan trong chung toi deu cam ta, tien quyen tang giup chung toi phat trien cac kenh TV ngay cang tot hon.</info>
+<thumbnail>http://LangSongViet.com/fta4vnForum/upload/uploaded/26_1365180982.png</thumbnail>
+<language>Vietnamese</language>
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<items>
+<item>
+<title>VTV - Đa Nang</title>
+<link>rtmp://222.255.167.149/live/livestream swfUrl=http://megafullvn.com/playerhd/player.swf pageUrl=http://megafullvn.com/tivi/kenh/vtvdanang.php live=true timeout=10</link>
+<thumbnail>http://1.bp.blogspot.com/-FGtNN96Jgfc/TfzQX4u7kxI/AAAAAAAAAVw/gfI8DEZC52g/s1600/vtvdanang.jpg</thumbnail>
+</item>
+ 
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>VTV - Can Tho 1</title>
+<link>rtmp://113.161.204.167/live/livestream swfUrl=http://megafullvn.com/playerhd/player.swf pageUrl=http://megafullvn.com/tivi/kenh/vtvcantho1.php live=true timeout=10</link>
+<thumbnail>http://2.bp.blogspot.com/-AxH5oUnFf2o/TkFsL-aRdUI/AAAAAAAAAZA/44M1sCrmWN0/s1600/vtvcantho1.gif</thumbnail>
+</item>
+
+<!-- Last Update: 04.12.2013 by Silverfox -->
+<item>
+<title>VTV - Can Tho 2</title>
+<link>rtmp://113.161.204.168/live/livestream swfUrl=http://megafullvn.com/playerhd/player.swf pageUrl=http://megafullvn.com/tivi/kenh/vtvcantho2.php live=true timeout=10</link>
+<thumbnail>http://4.bp.blogspot.com/-wyqLDsNMiik/TkFsMo2QVhI/AAAAAAAAAZE/_wqzrao583Q/s1600/vtvcantho2.gif</thumbnail>
+</item>
+
+<!-- Last Update: 05.02.2013 by Silverfox -->
+<item>
+<title>Lam Đong TV</title>
+<link>rtmp://m22.megafun.vn/hctv/vstv022 timeout=10</link>
+<thumbnail>http://www.lyngsat-logo.com/logo/tv/ll/lam_dong_tv.jpg</thumbnail>
+</item>
+
+<!-- Last Update: 05.02.2013 by Silverfox -->
+<item>
+<title>Vinh Long TV</title>
+<link>rtmp://123.30.108.77/live/THVL1/THVL1 swfURL=http://www.tivi.goldpagemedia.com/static/site/flash/player2.swf pageUrl=http://www.tivi.goldpagemedia.com/channel/vinh-long.35A4E904.html live=true timeout=10</link>
+<thumbnail>https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQfaQ_SCxa_jD3K7gtxwZKibl5HKHjmvYoJWX_3s5n2kkLyHYHqBw</thumbnail>
+</item>
+
+</items>
+</channel>
+</channels>

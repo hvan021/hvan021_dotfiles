@@ -1,0 +1,23 @@
+windo normal zo
+windo set number
+
+set vicmd=gvim
+
+" nmap <C-l> <C-w>l
+" nmap <C-h> <C-w>h
+" nmap <C-j> <C-w>j
+" nmap <C-k> <C-w>k
+" colorscheme Default
+"colorscheme istib-solarized-dark
+
+filetype *.pdf  "C:\Program Files (x86)\SumatraPDF\SumtraPDF.exe"
+
+set runexec
+set statusline=" %t%= %A %10u:%-7g %15s %20d "
+
+" :mark mark /full/directory/path [filename]
+mark b ~/bin/
+mark h ~/
+mark d D:/Downloads/
+mark z Z:/
+mark p D:/Dropbox/Projects/
