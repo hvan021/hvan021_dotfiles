@@ -96,6 +96,8 @@
     " it is next to ``m`` and ``n`` which I use for navigating between tabs.
     let mapleader = ","
     " nnoremap . <NOP>
+    
+    noremap ; :
 
     " Bind nohl
     noremap <Leader>h :nohl<CR>
@@ -105,15 +107,16 @@
     vnoremap <Leader>w <C-C>:update<CR>
     inoremap <Leader>w <Esc>:update<CR>
 
+    " Quick quit command
+    noremap <Leader>q :quit<CR>  " Quit current window
+    noremap <Leader>Q :qa!<CR>   " Quit all windows
+
     " sudo save
     if has("mac") || has("unix")
         "nnoremap <Leader>W w !sudo tee > /dev/null %
         cmap w!! w !sudo tee % >/dev/null
     endif
 
-    " Quick quit command
-    noremap <Leader>e :quit<CR>  " Quit current window
-    noremap <Leader>E :qa!<CR>   " Quit all windows
 
     " insert new line in normal mode
     nmap <S-Enter> O<Esc>j
