@@ -97,7 +97,7 @@
     let mapleader = ","
     " nnoremap . <NOP>
     
-    noremap ; :
+    "noremap ; :
 
     " Bind nohl
     noremap <Leader>h :nohl<CR>
