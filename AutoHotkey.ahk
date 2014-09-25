@@ -35,7 +35,15 @@ return
 return
 
 
+; Emacs and Vim editor
+#ifWinActive ahk_class Emacs
+Capslock::Ctrl
 
+#IfWinActive ahk_class Vim
+Capslock::Ctrl
+
+
+; Adobe Acrobat
 #IfWinActive ahk_class AcrobatSDIWindow
 j::Send {Down}
 Return
@@ -48,9 +56,7 @@ Return
 d::WinClose
 return
 
-#IfWinActive ahk_class Vim
-Capslock::Ctrl
-
+; Windows explorer
 #IfWinActive ahk_class CabinetWClass
 j::Send {Down}
 Return
