@@ -1,0 +1,36 @@
+ls
+pwd
+ls -al
+python 13lpthw.py 
+emacs 14lpthw.py 
+13l
+exit
+python cms.py
+python cms.py
+cd ../hvan021_dotfiles/
+gs
+git status
+cp ~/.emacs 
+cp ~/.emacs ./
+ls
+la
+ls -al
+cd ~/.emacs.d/
+ls
+cd eshell/
+mv .bashrc .profile
+cd ~/hvan021_dotfiles/
+gs
+git status
+cp ~/.emacs.d ./
+cp -rf ~/.emacs.d ./
+cp -r ~/.emacs.d ./
+cp -f ~/.emacs.d ./
+man cp
+ls ~/.emacs.d/
+ls ~/.emacs.d/eshell/
+ls -al ~/.emacs.d/eshell/
+emacs ~/.emacs.d/eshell/.profile 
+rm ~/.emacs.d/eshell/.profile 
+ls -al ~/.emacs.d/eshell/.profile 
+ls -al ~/.emacs.d/eshell/
