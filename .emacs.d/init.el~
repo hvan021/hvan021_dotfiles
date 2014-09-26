@@ -27,7 +27,7 @@
   (global-linum-mode 1)
   (blink-cursor-mode -1))
 
-(indent-tabs-mode nil) ; insert spaces instead of tabs
+
 
 ;; (global-hl-line-mode)
 (show-paren-mode)
@@ -85,33 +85,5 @@
 ;; packages initialize
 ;;================================================== 
 (require 'guide-key)
-(setq guide-key/guide-key-sequence '("C-x r" "C-x 4" "C-x")) 
+(setq guide-key/guide-key-sequence '("C-x r" "C-x 4" "C-x" "C-c"))
 (guide-key-mode 1)  ; Enable guide-key-mode
-
-
-
-;;================================================== 
-;; custom functions
-;;================================================== 
-(defun hvan021/vsplit-last-buffer (prefix)
-  "Split the window vertically and display the previous buffer."
-  (interactive "p")
-  (split-window-vertically)
-  (other-window 1 nil)
-  (unless prefix
-    (switch-to-next-buffer)))
-(defun hvan021/hsplit-last-buffer (prefix)
-  "Split the window horizontally and display the previous buffer."
-  (interactive "p")
-  (split-window-horizontally)
-  (other-window 1 nil)
-  (unless prefix (switch-to-next-buffer)))
-(bind-key "C-x 2" 'hvan021/vsplit-last-buffer)
-(bind-key "C-x 3" 'hvan021/hsplit-last-buffer)
-
-;; Evaluate new settings
-;; C-x C-e ;; current line
-;; M-x eval-region ;; region
-;; M-x eval-buffer ;; whole buffer
-;; M-x load-file ~/.emacs.d/init.el
-
