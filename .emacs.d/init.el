@@ -7,6 +7,7 @@
 (require 'evil)(evil-mode 1)
 (require 'smex)
 
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -27,14 +28,14 @@
   (global-linum-mode 1)
   (blink-cursor-mode -1))
 
-(indent-tabs-mode nil) ; insert spaces instead of tabs
+;; (indent-tabs-mode nil)		       ; insert spaces instead of tabs
 
 ;; (global-hl-line-mode)
 (show-paren-mode)
 
  
 ;; map jk for escape in Evil mode
-;; define-key evil-insert-state-map "j" #'cofi/maybe-exit)
+;; define-key evil-insert-state-map "j" #'cofi/maybe-exitnd)
 ;; (evil-define-command cofi/maybe-exit ()
 ;;   :repeat change
 ;;   (interactive)
@@ -100,14 +101,31 @@
   (other-window 1 nil)
   (unless prefix
     (switch-to-next-buffer)))
+
 (defun hvan021/hsplit-last-buffer (prefix)
   "Split the window horizontally and display the previous buffer."
   (interactive "p")
   (split-window-horizontally)
   (other-window 1 nil)
   (unless prefix (switch-to-next-buffer)))
+
 (bind-key "C-x 2" 'hvan021/vsplit-last-buffer)
 (bind-key "C-x 3" 'hvan021/hsplit-last-buffer)
+(bind-key "M-s" 'save-buffer)
+
+
+
+
+(defun toggle-fullscreen ()
+  "Toggle full screen"
+  (interactive)
+  (set-frame-parameter
+     nil 'fullscreen
+     (when (not (frame-parameter nil 'fullscreen)) 'fullboth)))
+;; (bind-key "S-return" 'toggle-fullscreen)
+(global-set-key [s-return] 'toggle-fullscreen)
+
+(toggle-fullscreen)						;toogle fullscreen when start
 
 ;; Evaluate new settings
 ;; C-x C-e ;; current line
@@ -115,3 +133,22 @@
 ;; M-x eval-buffer ;; whole buffer
 ;; M-x load-file ~/.emacs.d/init.el
 
+;; Use Emacs terminfo, not system terminfo
+;(setq system-uses-terminfo nil)
+
+;(require 'multi-term)
+;(setq multi-term-program "/bin/zsh")
+
+;(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+
+; unicode setting for term
+;see here http://stackoverflow.com/questions/6820051/unicode-characters-in-emacs-term-mode
+(add-hook 'term-exec-hook
+          (function
+           (lambda ()
+             (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))))
+
+; setting unicode for ansi-term
+;(defadvice ansi-term (after advise-ansi-term-coding-system)
+    ;(set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))
+;(ad-activate 'ansi-term)

@@ -34,3 +34,11 @@ emacs ~/.emacs.d/eshell/.profile
 rm ~/.emacs.d/eshell/.profile 
 ls -al ~/.emacs.d/eshell/.profile 
 ls -al ~/.emacs.d/eshell/
+ls
+la
+ls
+ls -al
+pwd
+cd ~
+ls
+exit
