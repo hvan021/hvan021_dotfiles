@@ -208,10 +208,10 @@
 
     "" Display-altering option toggles
     "MapToggle <F1> hlsearch
-    "MapToggle <F2> wrap
+    "MapToggle <F3> wrap
 
-    nnoremap <F2> :set wrap! wrap?<CR>
-    imap <F2> <C-O><F2>
+    nnoremap <F3> :set wrap! wrap?<CR>
+    imap <F3> <C-O><F3>
     nnoremap <F1> :set hlsearch! hlsearch?<CR>
     imap <F1> <C-O><F1>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
