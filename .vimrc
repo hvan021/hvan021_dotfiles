@@ -54,6 +54,7 @@
     " When you want to paste large blocks of code into vim, press F2 before you
     " paste. At the bottom you should see ``-- INSERT (paste) --``.
     set pastetoggle=<F2>
+
     set clipboard=unnamed
 
     set wildmode=list:longest " make TAB behave like in a shell
@@ -177,6 +178,7 @@
 
     " new settings
     map <Leader>a ggVG  " select all
+    nnoremap <leader>1 yypVr=  " add a line underneath with every character repalce by =
 
     " center the cursor vertically
     "nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
@@ -821,5 +823,4 @@ set grepprg=ack\ -k
   "elseif os == 'Linux'
     "set guifont=Monospace\ 12
   "endif
-
 

@@ -11,6 +11,8 @@ map -b k 5k
 nmap h gT
 nmap l gt
 map <BS> :back<cr>
+imap <C-j> <Down>
+imap <C-k> <Up>
 
 "map -b j 5j
 "map -b k 5k
