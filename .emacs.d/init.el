@@ -5,13 +5,12 @@
 )
 
 ;; (if (eq system-type "darwin")
-	(set-default-font "Inconsolata-13")
+	;; (set-default-font "Inconsolata-13")
 ;; )
 
 (add-to-list 'load-path "~/.emacs.d/evil")
 (require 'evil)(evil-mode 1)
 (require 'smex)
-
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -83,6 +82,7 @@
 
 (require 'key-chord)(key-chord-mode 1) ; turn on key-chord-mode
 (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
+(key-chord-define evil-insert-state-map ",w" 'save-buffer)
 
 (global-set-key (kbd "M-;") 'comment-dwim-2)
 ;; (global-set-key (kbd "RET") 'evil-insert-newline-below)
@@ -94,6 +94,10 @@
 (require 'guide-key)
 (setq guide-key/guide-key-sequence '("C-x r" "C-x 4" "C-x")) 
 (guide-key-mode 1)  ; Enable guide-key-mode
+
+
+(require 'autopair)
+(autopair-global-mode 1)
 
 ;; (require 'recentf)
 (recentf-mode 1)
@@ -119,7 +123,7 @@
 
 (bind-key "C-x 2" 'hvan021/vsplit-last-buffer)
 (bind-key "C-x 3" 'hvan021/hsplit-last-buffer)
-(bind-key "M-s" 'save-buffer)
+;; (bind-key "M-s" 'save-buffer)
 
 
 
@@ -137,7 +141,7 @@
 
 ;; Evaluate new settings
 ;; C-x C-e ;; current line
-;; M-x eval-region ;; region
+
 ;; M-x eval-buffer ;; whole buffer
 ;; M-x load-file ~/.emacs.d/init.el
 
@@ -157,6 +161,8 @@
   (progn
     ;; (message "Microsoft Windows") )
 
+	;; (set-default-font "Inconsolata-10")
+	(set-default-font "Consolas-10")
 	(setq explicit-shell-file-name "C:/Program Files (x86)/Git/bin/sh.exe")
 	(setq shell-file-name "bash")
 	(setq explicit-sh.exe-args '("--noediting" "--login" "-i"))
@@ -168,6 +174,7 @@
   (progn
     ;; (message "Mac OS X")
 
+	(set-default-font "Inconsolata-13")
 	;; (setq explicit-shell-file-name "/bin/bash")
 	;; (setq shell-file-name "bash")
 	;; (setq explicit-sh.exe-args '("--noediting" "--login" "-i"))
@@ -216,10 +223,10 @@
 
 
 ;; PHP mode settings
-
-(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
-(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
-(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
+(require 'php-mode)
+;; (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
+;; (add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+;; (add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
 
 
 ;; (setq-default indent-tabs-mode nil)
@@ -253,3 +260,20 @@
 ;;   (progn
 ;;     (message "Linux") )
 ;;   )
+
+
+
+;; .vimrc syntax highlighting
+;; (define-generic-mode 'vimrc-generic-mode
+;;     '()
+;;     '()
+;;     '(("^[\t ]*:?\\(!\\|ab\\|map\\|unmap\\)[^\r\n\"]*\"[^\r\n\"]*\\(\"[^\r\n\"]*\"[^\r\n\"]*\\)*$"
+;;        (0 font-lock-warning-face))
+;;       ("\\(^\\|[\t ]\\)\\(\".*\\)$"
+;;       (2 font-lock-comment-face))
+;;       ("\"\\([^\n\r\"\\]\\|\\.\\)*\""
+;;        (0 font-lock-string-face)))
+;;     '("/vimrc\\'" "\\.vim\\(rc\\)?\\'")
+;;     '((lambda ()
+;;         (modify-syntax-entry ?\" ".")))
+;;     "Generic mode for Vim configuration files.")
