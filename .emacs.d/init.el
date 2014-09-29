@@ -205,6 +205,16 @@
 ;;            (lambda ()
 ;;              (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))))
 
+
+;; (set-terminal-coding-system 'utf-8)
+;; (set-keyboard-coding-system 'utf-8)
+;; (prefer-coding-system 'utf-8)
+
+
+
+
+
+
 ;; PHP mode settings
 
 (autoload 'php-mode "php-mode" "Major mode for editing php code." t)
