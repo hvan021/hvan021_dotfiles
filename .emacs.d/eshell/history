@@ -42,3 +42,7 @@ pwd
 cd ~
 ls
 exit
+ls
+pwd
+ls -al
+exit

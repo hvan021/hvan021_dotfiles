@@ -13,7 +13,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (wombat))))
+ '(custom-enabled-themes (quote (wombat)))
+ '(inhibit-startup-screen t))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -141,6 +142,16 @@
 
 ;(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
+
+(setq explicit-shell-file-name "C:/Program Files (x86)/Git/bin/sh.exe")
+(setq shell-file-name "bash")
+(setq explicit-sh.exe-args '("--noediting" "--login" "-i"))
+(setenv "SHELL" shell-file-name)
+(add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)
+
+
+
+
 ; unicode setting for term
 ;see here http://stackoverflow.com/questions/6820051/unicode-characters-in-emacs-term-mode
 (add-hook 'term-exec-hook
@@ -152,3 +163,23 @@
 ;(defadvice ansi-term (after advise-ansi-term-coding-system)
     ;(set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))
 ;(ad-activate 'ansi-term)
+
+;; PHP mode settings
+
+(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
+(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
+
+
+;; (setq-default indent-tabs-mode nil)
+;; (setq-default tab-width 4)
+;; (setq c-basic-offset 4)
+
+(add-hook 'php-mode-hook 'my-php-mode-hook)
+(defun my-php-mode-hook ()
+  "My PHP mode configuration."
+  (setq indent-tabs-mode nil
+        tab-width 4
+        c-basic-offset 4))
+
+;; (define-key php-mode-map (kbd "RET") 'newline-and-indent) 
