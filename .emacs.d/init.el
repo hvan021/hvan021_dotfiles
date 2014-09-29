@@ -2,7 +2,12 @@
   (require 'package)
   (package-initialize)
   (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
-  )
+)
+
+;; (if (eq system-type "darwin")
+	(set-default-font "Inconsolata-13")
+;; )
+
 (add-to-list 'load-path "~/.emacs.d/evil")
 (require 'evil)(evil-mode 1)
 (require 'smex)
@@ -90,7 +95,9 @@
 (setq guide-key/guide-key-sequence '("C-x r" "C-x 4" "C-x")) 
 (guide-key-mode 1)  ; Enable guide-key-mode
 
-
+;; (require 'recentf)
+(recentf-mode 1)
+(global-set-key "\C-xf" 'recentf-open-files)
 
 ;;================================================== 
 ;; custom functions
@@ -143,26 +150,60 @@
 ;(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
 
 
-(setq explicit-shell-file-name "C:/Program Files (x86)/Git/bin/sh.exe")
-(setq shell-file-name "bash")
-(setq explicit-sh.exe-args '("--noediting" "--login" "-i"))
-(setenv "SHELL" shell-file-name)
-(add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)
 
+;; check OS type
+(cond
+ ((string-equal system-type "windows-nt") ; Microsoft Windows
+  (progn
+    ;; (message "Microsoft Windows") )
+
+	(setq explicit-shell-file-name "C:/Program Files (x86)/Git/bin/sh.exe")
+	(setq shell-file-name "bash")
+	(setq explicit-sh.exe-args '("--noediting" "--login" "-i"))
+	(setenv "SHELL" shell-file-name)
+	(add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)
+	)
+  )
+ ((string-equal system-type "darwin")   ; Mac OS X
+  (progn
+    ;; (message "Mac OS X")
+
+	;; (setq explicit-shell-file-name "/bin/bash")
+	;; (setq shell-file-name "bash")
+	;; (setq explicit-sh.exe-args '("--noediting" "--login" "-i"))
+	;; (setenv "SHELL" shell-file-name)
+	;; (add-hook 'comint-output-filter-functions 'comint-strip-ctrl-m)
+	)
+  )
+ ((string-equal system-type "gnu/linux") ; linux
+  (progn
+    ;; (message "Linux")
+	)
+  )
+)
 
 
 
 ; unicode setting for term
 ;see here http://stackoverflow.com/questions/6820051/unicode-characters-in-emacs-term-mode
 (add-hook 'term-exec-hook
+;; (add-hook 'shell-mode-hook
           (function
            (lambda ()
-             (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))))
+             (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix)
+			     ;; (set-buffer-process-coding-system 'mule-utf-8 'mule-utf-8)
+			 )))
 
 ; setting unicode for ansi-term
 ;(defadvice ansi-term (after advise-ansi-term-coding-system)
     ;(set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))
 ;(ad-activate 'ansi-term)
+
+
+;; (add-hook 'comint-exec-hook
+;;           (function
+;;            (lambda ()
+;;              (set-buffer-process-coding-system 'utf-8-unix 'utf-8-unix))))
 
 ;; PHP mode settings
 
@@ -183,3 +224,22 @@
         c-basic-offset 4))
 
 ;; (define-key php-mode-map (kbd "RET") 'newline-and-indent) 
+
+(define-key global-map (kbd "RET") 'newline-and-indent)
+
+
+;; check OS type
+;; (cond
+;;  ((string-equal system-type "windows-nt") ; Microsoft Windows
+;;   (progn
+;;     (message "Microsoft Windows") )
+;;   )
+;;  ((string-equal system-type "darwin")   ; Mac OS X
+;;   (progn
+;;     (message "Mac OS X")
+;;     )
+;;   )
+;;  ((string-equal system-type "gnu/linux") ; linux
+;;   (progn
+;;     (message "Linux") )
+;;   )
