@@ -306,7 +306,7 @@ endif
 " =========================
 " No bullshit folding magic
 " =========================
-set foldmethod=indent
+"set foldmethod=indent
 "set foldnestmax=2
 "nnoremap <space> zA
 "vnoremap <space> zA
