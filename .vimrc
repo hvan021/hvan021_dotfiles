@@ -14,9 +14,11 @@
         endif
 " }
 
+    set hidden
     set encoding=utf-8
     "set guioptions-=m
     set guioptions-=T
+    set splitright
     "set guioptions=gtrLme
     " Setup Pathogen to manage your plugins
     " mkdir -p ~/.vim/autoload ~/.vim/bundle
@@ -53,7 +55,6 @@
     " Better copy & paste
     " When you want to paste large blocks of code into vim, press F2 before you
     " paste. At the bottom you should see ``-- INSERT (paste) --``.
-    set pastetoggle=<F2>
 
     set clipboard=unnamed
 
@@ -88,6 +89,12 @@
         \ endif
     " Remember info about open buffers on close
     set viminfo^=%
+
+    " Always try to keep this many lines above and below the cursor
+    set scrolloff=7
+
+    set relativenumber
+
     " ============================================================================
     " -------- KEY BINDING SETTINGS --------
     " ============================================================================
@@ -100,8 +107,28 @@
     
     "noremap ; :
 
-    " Bind nohl
-    noremap <Leader>h :nohl<CR>
+    set pastetoggle=<F2>
+
+    map <Leader>ev :e ~/.vimrc<cr>
+
+
+    " =========================
+    " Awesome line number magic
+    " =========================
+    "function! NumberToggle()
+    "if(&relativenumber == 1)
+        "set number
+    "else
+        "set relativenumber
+    "endif
+    "endfunc
+
+    "nnoremap <Leader>l :call NumberToggle()<cr>
+    nnoremap <Leader>l :set  relativenumber!<cr>
+    ":au FocusLost * :set number
+    ":au FocusGained * :set relativenumber
+    "autocmd InsertEnter * :set number
+    "autocmd InsertLeave * :set relativenumber
 
     " Quicksave command
     noremap <Leader>w :update<CR>
@@ -151,7 +178,7 @@
 
     " map jk and kj to ESC
     inoremap jk <esc>
-    "inoremap kj <esc>
+    inoremap kj <esc>
 
     inoremap <C-e> <C-O>$
     inoremap ;; <end>;
@@ -183,8 +210,6 @@
     " center the cursor vertically
     "nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
 
-    " Always try to keep this many lines above and below the cursor
-    set scrolloff=7
 
     " remove trailing white space
     map <Leader>x :%s/\s\+$//<cr>
@@ -199,18 +224,6 @@
     else
         map <Leader>h :tabe /private/etc/hosts <bar> vsp /private/etc/apache2/extra/httpd-vhosts.conf<CR>
     endif
-
-    " Map key to toggle opt
-    "function! MapToggle(key, opt)
-        "let cmd = ':set '.a:opt.'! \| set '.a:opt."?\<CR>"
-        "exec 'nnoremap '.a:key.' '.cmd
-        "exec 'inoremap '.a:key." \<C-O>".cmd
-    "endfunction
-    "command -nargs=+ MapToggle call MapToggle(<f-args>)
-
-    "" Display-altering option toggles
-    "MapToggle <F1> hlsearch
-    "MapToggle <F3> wrap
 
     nnoremap <F3> :set wrap! wrap?<CR>
     imap <F3> <C-O><F3>
@@ -295,8 +308,8 @@ endif
 " =========================
 set foldmethod=indent
 "set foldnestmax=2
-nnoremap <space> zA
-vnoremap <space> zA
+"nnoremap <space> zA
+"vnoremap <space> zA
 
 " When opening the file, unfold all. Fold all with zM
 " au BufRead * normal zR
@@ -520,15 +533,12 @@ let delimitMate_expand_cr = 1
 " UltiSnips
 " git clone https://github.com/sirver/ultisnips
 " =====================
-set runtimepath+=~/.vim/bundle/UltiSnips
-let g:snips_author = "Hugh Van"
-"set runtimepath+=~/.vim/snippets
-"let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips/"
-"let g:UltiSnipsSnippetDirectories = ['UltiSnips', 'snippets']
-let g:UltiSnipsSnippetDirectories = ['UltiSnips']
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+"set runtimepath+=~/.vim/bundle/UltiSnips
+"let g:snips_author = "Hugh Van"
+"let g:UltiSnipsSnippetDirectories = ['UltiSnips']
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsJumpForwardTrigger="<tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " ======================================
 "original settings from Ultisnips  github
@@ -602,9 +612,6 @@ let g:SuperTabDefaultCompletionType = "context"
 " ==========================
 " let g:vim_markdown_folding_disabled=1
 let g:vim_markdown_initial_foldlevel=1
-
-
- map <Leader>v :source ~/.vimrc<cr>
 
 " Compile bootstrap.css when saving a .less file
 "func! s:CompileLess()
@@ -700,25 +707,6 @@ let g:syntastic_python_flake8_args = '--ignore=E501,E225'
 " ============================================================================
 
 " =========================
-" Awesome line number magic
-" =========================
-"function! NumberToggle()
-  "if(&relativenumber == 1)
-    "set number
-  "else
-    "set relativenumber
-  "endif
-"endfunc
-
-"nnoremap <Leader>l :call NumberToggle()<cr>
-nnoremap <Leader>l :set  relativenumber!<cr>
-":au FocusLost * :set number
-":au FocusGained * :set relativenumber
-"autocmd InsertEnter * :set number
-"autocmd InsertLeave * :set relativenumber
-set relativenumber
-
-" =========================
 " Convert case
 " =========================
 function! TwiddleCase(str)
@@ -749,7 +737,9 @@ vnoremap ~ y:call setreg('', TwiddleCase(@"), getregtype(''))<CR>gv""Pgv
 " imap <C-v> <Esc><C-v>a
 
 
-set grepprg=ack\ -k
+if has('mac')
+    set grepprg=ack\ -k
+endif
 
 
 " Settings for vim-powerline -- Ubutu settings only here -- MODIFY it for
@@ -787,7 +777,6 @@ set grepprg=ack\ -k
 
 ""set line no, buffer, search, highlight, autoindent and more.
 "set nu
-"set hidden
 "set ignorecase
 "set incsearch
 "set smartcase
