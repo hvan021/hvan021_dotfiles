@@ -430,6 +430,17 @@ endfunction
 " ============================================================================
 " ********** ADD-ON & PLUGGINS **********
 " cd ~/.vim/bundle
+" git submodule update --init.
+"
+" to update submodules:
+" git submodule foreach git pull origin master
+"
+"
+"
+"
+"
+"
+" cd ~/.vim/bundle
 " git clone https://github.com/kien/ctrlp.vim.git
 " &&
 " git clone https://github.com/Raimondi/delimitMate.git
