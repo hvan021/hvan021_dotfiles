@@ -436,6 +436,18 @@ endfunction
 " git submodule foreach git pull origin master
 "
 "
+ "git submodule add https://github.com/davidhalter/jedi bundle/jedi
+ "git submodule add https://github.com/scrooloose/nerdcommenter bundle/nerdcommenter
+ "git submodule add https://github.com/scrooloose/nerdtree bundle/nerdtree
+ "git submodule add https://github.com/shawncplus/phpcomplete.vim bundle/phpcomplete.vim
+ "git submodule add https://github.com/scrooloose/syntastic bundle/syntastic
+ "git submodule add https://github.com/Lokaltog/powerline bundle/powerline
+ "git submodule add https://github.com/ervandew/supertab bundle/supertab
+"
+"
+"
+" git submodule add https://github.com/ bundle/
+"
 "
 "
 "
