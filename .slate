@@ -1,0 +1,66 @@
+# General Configuration
+config defaultToCurrentScreen true
+config windowHintsShowIcons true
+config windowHintsIgnoreHiddenWindows false
+config windowHintsSpread true
+
+
+
+
+alias sox screenOriginX
+alias soy screenOriginY
+alias ssx screenSizeX
+alias ssy screenSizeY
+
+
+alias fac ctrl;alt # find/focus app combo key
+alias mac ctrl;shift # move app combo key
+
+# Slate
+bind backslash:${fac} relaunch
+# Window Hints
+bind ;:${fac} hint
+
+# App switching
+#bind c:alt focus 'Google Chrome'
+#bind d:alt focus 'Finder'
+#bind f:alt focus 'Firefox'
+#bind e:alt focus 'Emacs'
+#bind j:alt focus 'Eclipse'
+#bind t:alt focus 'Terminal'
+#bind x:alt focus 'Xcode'
+
+# Window Grid
+bind g:alt grid padding:5 0:8,5
+
+
+
+alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
+alias threequarter move screenOriginX+screenSizeX/4;screenOriginY screenSizeX*3/4;screenSizeY
+alias quarterleft move screenOriginX;screenOriginY screenSizeX/4;screenSizeY
+alias quarterup move ${sox};${soy} ${ssx}/4;${ssy}/2
+alias quarterdown move ${sox};${soy}+${ssy}/2 ${ssx}/4;${ssy}/2
+
+
+bind j:${fac} focus down
+bind k:${fac} focus up
+bind h:${fac} focus left
+bind l:${fac} focus right
+bind u:${fac} focus above
+bind m:${fac} focus behind
+
+
+
+bind h:${mac} ${quarterleft}
+bind l:${mac} ${threequarter}
+bind u:${mac} ${quarterup}
+bind m:${mac} ${quarterdown}
+
+bind z:${fac} undo
+bind return:${fac} sequence  ${threequarter} |  focus behind | ${quarterleft}  | focus right
+#bind s:${fac} sequence ${threequarter}
+
+
+
+bind p:${fac} push left
+#bind tab:cmd switch
