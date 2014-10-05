@@ -16,12 +16,15 @@
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
-[submodule ".vim/bundle/jedi"]
-	path = .vim/bundle/jedi
-	url = https://github.com/davidhalter/jedi
 [submodule ".vim/bundle/phpcomplete.vim"]
 	path = .vim/bundle/phpcomplete.vim
 	url = https://github.com/shawncplus/phpcomplete.vim
 [submodule ".vim/bundle/supertab"]
 	path = .vim/bundle/supertab
 	url = https://github.com/ervandew/supertab
+[submodule ".vim/bundle/jedi-vim"]
+	path = .vim/bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim.git
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
