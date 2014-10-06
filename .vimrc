@@ -446,7 +446,7 @@ endfunction
  "git submodule add https://github.com/plasticboy/vim-markdown.git bundle/vim-markdown
 "
 "
-"
+"git submodule update --init --recursive
 " git submodule add https://github.com/ bundle/
 "
 "

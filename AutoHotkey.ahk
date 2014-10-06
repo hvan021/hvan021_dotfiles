@@ -13,13 +13,46 @@
 ; and it launches a new Notepad window (or activates an existing one).  To
 ; try out these hotkeys, run AutoHotkey again, which will load this file.
 
-;#z::Run www.autohotkey.com
+
+;^!b::WinActivate ahk_class MozillaWindowClass ; activate Firefox
+;^!e::WinActivate ahk_class Vim ; activate editor
+;^!t::WinActivate ahk_class VirtualConsoleClass ; activate terminal console
+;^!f::WinActivate ahk_class CabinetWClass ; activate finder/windows explorer
+
+;^!m::
+;IfWinExist ahk_class rctrl_renwnd32
+;{
+    ;WinActivate ahk_class rctrl_renwnd32
+;}
+;else
+;{
+    ;Run Outlook
+    ;WinWait ahk_class rctrl_renwnd32
+    ;WinActivate
+;}
+;return
+
+^!b::RunOrActivate("firefox", "MozillaWindowClass") ; activate Firefox
+^!e::RunOrActivate("gVim", "Vim") ; activate editor
+^!t::RunOrActivate("ConEmu /Dir c:/Users/Hugh", "VirtualConsoleClass") ; activate terminal console
+^!f::RunOrActivate("explorer", "CabinetWClass") ; activate finder/windows explorer
+^!n::RunOrActivate("Outlook", "rctrl_renwnd32")
+
+RunOrActivate(progname, windowclass){
+    IfWinExist ahk_class %windowclass%
+    {
+        WinActivate ahk_class %windowclass%
+    }
+    else
+    {
+        Run %progname%
+        WinWait ahk_class %windowclass%
+        WinActivate
+    }
+    return
+}
 
 
-
-
-
-;^!n::
 ;IfWinExist Untitled - Notepad
 	;WinActivate
 ;else
@@ -38,9 +71,11 @@ return
 ; Emacs and Vim editor
 #ifWinActive ahk_class Emacs
 Capslock::Ctrl
+return
 
 #IfWinActive ahk_class Vim
 Capslock::Ctrl
+return
 
 
 ; Adobe Acrobat
@@ -72,9 +107,21 @@ Return
 #IfWinActive ahk_class CabinetWClass
 h::Send +{F6}
 Return
+
+
+
+;#Include C:/Users/Hugh/bin/bug.n-master/src
+;#Include C:/Users/Hugh/bugn/
+;#Include Main.ahk
+
+
+
+
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
 
 ; Please read the QUICK-START TUTORIAL near the top of the help file.
 ; It explains how to perform common automation tasks such as sending
 ; keystrokes and mouse clicks.  It also explains more about hotkeys.
+
+
