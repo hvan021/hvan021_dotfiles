@@ -14,12 +14,7 @@
 ; try out these hotkeys, run AutoHotkey again, which will load this file.
 
 
-;^!b::WinActivate ahk_class MozillaWindowClass ; activate Firefox
-;^!e::WinActivate ahk_class Vim ; activate editor
-;^!t::WinActivate ahk_class VirtualConsoleClass ; activate terminal console
-;^!f::WinActivate ahk_class CabinetWClass ; activate finder/windows explorer
 
-;^!m::
 ;IfWinExist ahk_class rctrl_renwnd32
 ;{
     ;WinActivate ahk_class rctrl_renwnd32
@@ -32,11 +27,11 @@
 ;}
 ;return
 
-^!b::RunOrActivate("firefox", "MozillaWindowClass") ; activate Firefox
-^!e::RunOrActivate("gVim", "Vim") ; activate editor
-^!t::RunOrActivate("ConEmu /Dir c:/Users/Hugh", "VirtualConsoleClass") ; activate terminal console
-^!f::RunOrActivate("explorer", "CabinetWClass") ; activate finder/windows explorer
-^!n::RunOrActivate("Outlook", "rctrl_renwnd32")
+^!u::RunOrActivate("firefox", "MozillaWindowClass") ; activate Firefox
+^!i::RunOrActivate("gVim", "Vim") ; activate editor
+^!o::RunOrActivate("ConEmu /Dir c:/Users/Hugh", "VirtualConsoleClass") ; activate terminal console
+^!p::RunOrActivate("explorer", "CabinetWClass") ; activate finder/windows explorer
+^!m::RunOrActivate("Outlook", "rctrl_renwnd32")
 
 RunOrActivate(progname, windowclass){
     IfWinExist ahk_class %windowclass%
