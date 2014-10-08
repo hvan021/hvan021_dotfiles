@@ -11,8 +11,8 @@ set spoolfile   = +INBOX
 mailboxes       = +INBOX
 set imap_check_subscribed
 
-set smtp_url    = "smtp://MY_EMAIL@smtp.gmail.com:587/"
-set smtp_pass   = MY_PASSWORD
+#set smtp_url    = "smtp://MY_EMAIL@smtp.gmail.com:587/" # don't need this setting with gmail
+#set smtp_pass   = MY_PASSWORD # don't need this setting with gmail
 set from        = "MY_EMAIL@gmail.com"
 
 set hostname    = gmail.com
@@ -48,5 +48,8 @@ set sort_aux        = reverse-last-date-received
 #bind index G imap-fetch-mail
 
 #source ~/.mutt/colors/solarized-dark.muttrc
-source ~/.mutt/colors/solarized-light.muttrc
-source ~/.mutt/colors/zenburn.muttrc
+#source ~/.mutt/colors/solarized-light.muttrc
+#source ~/.mutt/colors/zenburn.muttrc
+#source ~/.mutt/colors/davecolor.muttrc
+#source ~/.mutt/colors/Huggie.muttrc
+source ~/.mutt/colors/aperiodic.muttrc

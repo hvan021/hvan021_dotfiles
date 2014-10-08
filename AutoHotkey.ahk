@@ -29,7 +29,10 @@
 
 ^!u::RunOrActivate("firefox", "MozillaWindowClass") ; activate Firefox
 ^!i::RunOrActivate("gVim", "Vim") ; activate editor
-^!o::RunOrActivate("ConEmu /Dir c:/Users/Hugh", "VirtualConsoleClass") ; activate terminal console
+;;;; ^!o::RunOrActivate("ConEmu /Dir c:/Users/Hugh", "VirtualConsoleClass") ; activate terminal console
+
+^!o::RunOrActivate("C:\Users\Hugh\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico -", "mintty") ; activate terminal console
+
 ^!p::RunOrActivate("explorer", "CabinetWClass") ; activate finder/windows explorer
 ^!m::RunOrActivate("Outlook", "rctrl_renwnd32")
 

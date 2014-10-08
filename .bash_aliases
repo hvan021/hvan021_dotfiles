@@ -3,7 +3,7 @@
 #alias vim='"/d/Vim/vim74/gvim.exe"'
 
 
-if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" || "$OSTYPE" == "win64" ]]; then
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" || "$OSTYPE" == "win64" || "$OSTYPE" == "cygwin" ]]; then
     # refers to http://superuser.com/questions/650322/ignore-ntuser-dat-files-when-ls-on-git-bash
     #LS_COMMON="-hG"
     ## --color : On Windows7 this produces permission errors, e.g. for Music folder:
@@ -31,6 +31,11 @@ if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" || "$OSTYPE" == "win64" ]]; th
 else
     alias la='ls -alh'
 fi
+
+if [[ "$OSTYPE" == "cygwin" ]] ; then
+    alias vim='/cygdrive/d/Vim/vim74/gvim.exe'
+fi
+
 
 alias ga='git add'
 alias gb='git branch'
