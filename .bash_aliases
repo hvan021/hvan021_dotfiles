@@ -33,7 +33,7 @@ else
 fi
 
 if [[ "$OSTYPE" == "cygwin" ]] ; then
-    alias vim='/cygdrive/d/Vim/vim74/gvim.exe'
+    alias gvim='/cygdrive/d/Vim/vim74/gvim.exe'
 fi
 
 

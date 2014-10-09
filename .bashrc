@@ -5,8 +5,8 @@ for file in ~/.{bash_extra,bash_prompt,bash_exports,bash_aliases,bash_functions,
 done
 unset file
 
-#if [ -d "$HOME/bin" ] ; then
-#  PATH="$HOME/bin:$PATH"
-#fi
+if [ -d "$HOME/bin" ] ; then
+  PATH="$HOME/bin:$PATH"
+fi
 
-
+export EDITOR=vim
