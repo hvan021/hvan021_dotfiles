@@ -82,6 +82,11 @@
       <command>terminator</command>
     </action>
   </item>
+  <item label="Xfce Terminal">
+    <action name="Execute">
+      <command>xfce4-terminal</command>
+    </action>
+  </item>
   <!--
   <item label="Rxvt Unicode">
     <action name="Execute">
@@ -279,14 +284,14 @@
       <!--</startupnotify>-->
     <!--</action>-->
   <!--</item>-->
-  <!--<item label="Thunar">-->
-    <!--<action name="Execute">-->
-      <!--<command>Thunar</command>-->
-      <!--<startupnotify>-->
-        <!--<enabled>yes</enabled>-->
-      <!--</startupnotify>-->
-    <!--</action>-->
-  <!--</item>-->
+  <item label="Thunar">
+    <action name="Execute">
+      <command>Thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
   <!--<item label="KDE File Manager">-->
     <!--<action name="Execute">-->
       <!--<command>kfmclient openURL ~</command>-->
@@ -423,6 +428,11 @@
 
 <menu id="root-menu" label="Openbox 3">
   <separator label="FAL" />
+  <item label="Xfce Terminal">
+    <action name="Execute">
+      <command>xfce4-terminal</command>
+    </action>
+  </item>
     <item label="Terminator">
         <action name="Execute">
         <command>terminator --command="tmux -2"</command>
@@ -437,6 +447,14 @@
         </startupnotify>
         </action>
     </item>
+  <item label="Thunar">
+    <action name="Execute">
+      <command>Thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
     <item label="PCMan File Manager">
         <action name="Execute">
         <command>pcmanfm</command>
