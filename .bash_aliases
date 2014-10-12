@@ -36,6 +36,14 @@ if [[ "$OSTYPE" == "cygwin" ]] ; then
     alias gvim='/cygdrive/d/Vim/vim74/gvim.exe'
 fi
 
+alias ls='ls --color=auto'
+
+if [[ "$OSTYPE" == "linux-gnu" ]] ; then
+    #PS1='[\u@\h \W]\$ '
+
+    archey3
+fi
+
 
 alias ga='git add'
 alias gb='git branch'
