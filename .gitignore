@@ -5,6 +5,13 @@
 !*.jpg
 !*.png
 .config/libreoffice/*
+.config/Clementine/*
+.config/ImageMagick/*
+.config/Trolltech.conf
+.config/calibre/*
+.config/vlc/*
+.config/ristretto/*
+
 
 auto-save-list
 custom.el
