@@ -14,12 +14,13 @@ fi
 if [ -s ~/.Xmodmap ]; then
     xmodmap ~/.Xmodmap
 fi
-
+xrdb -merge ~/.Xresources 
 numlockx &
 
 # exec gnome-session
 # exec startkde
 # exec startxfce4
 # ...or the Window Manager of your choice
-exec openbox-session
+#exec openbox-session
 #exec startxfce4
+exec i3
