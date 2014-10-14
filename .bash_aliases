@@ -60,7 +60,8 @@ alias gs='git status'
 mkcd(){ dir=$1; mkdir -p $dir && cd $dir; }
 
 
-alias rdc='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator tdasrv'
+#alias rdc='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator tdasrv'
+alias rdc='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator '
 alias homeserver='ssh Administrator@hughmediacenter'
 alias sudo='sudo '
 alias tda='cd /d/Dropbox/Projects/tda/'
