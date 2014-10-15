@@ -164,3 +164,14 @@ bar {
         #modifier Mod1
         binding_mode_indicator no
 }
+
+
+bindsym XF86AudioLowerVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '-5%'
+bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ -- '+5%'
+
+
+
+
+
+
+

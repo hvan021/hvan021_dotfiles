@@ -16,6 +16,7 @@
 
     set hidden
     set encoding=utf-8
+    set fileencoding=utf-8
     "set guioptions-=m
     set guioptions-=T
     set splitright
