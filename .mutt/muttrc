@@ -11,8 +11,13 @@ set spoolfile   = +INBOX
 mailboxes       = +INBOX
 set imap_check_subscribed
 
-#set smtp_url    = "smtp://MY_EMAIL@smtp.gmail.com:587/" # don't need this setting with gmail
-#set smtp_pass   = MY_PASSWORD # don't need this setting with gmail
+# SMTP settings:
+set smtp_url    = "smtp://$imap_user:$imap_pass@smtp.gmail.com:587/" # don't need this setting with gmail
+set ssl_starttls = yes
+#set record = +[Gmail]/Sent
+
+#Gmail saves automatically sent e-mail to +[Gmail]/Sent, so we do not want duplicates.
+unset record
 set from        = "MY_EMAIL@gmail.com"
 
 set hostname    = gmail.com
@@ -21,12 +26,12 @@ set hostname    = gmail.com
 
 # Store message headers locally to speed things up.
 # If hcache is a folder, Mutt will create sub cache folders for each account which may speeds things even more up.
-set header_cache= "~/.mutt/cache"
+set header_cache= "~/.mutt/cache/headers"
 
 # Store messages locally to speed things up, like searching message bodies.
 # Can be the same folder as header_cache.
 # This will cost important disk usage according to your e-mail amount.
-set message_cachedir = "~/.mutt/cache"
+set message_cachedir = "~/.mutt/cache/bodies"
 
 # Specify where to save and/or look for postponed messages.
 set postpone    = yes
@@ -45,7 +50,6 @@ set sort            = threads
 set sort_browser    = date
 set sort_aux        = reverse-last-date-received
 
-#bind index G imap-fetch-mail
 
 # View html mails using lynx
 # set implicit_autoview
@@ -55,9 +59,12 @@ set mailcap_path="~/.mutt/mailcap"
 set mailcap_sanitize=yes
 
 
+#bind index G imap-fetch-mail
+
 #source ~/.mutt/colors/solarized-dark.muttrc
 #source ~/.mutt/colors/solarized-light.muttrc
 #source ~/.mutt/colors/zenburn.muttrc
 #source ~/.mutt/colors/davecolor.muttrc
 #source ~/.mutt/colors/Huggie.muttrc
 source ~/.mutt/colors/aperiodic.muttrc
+

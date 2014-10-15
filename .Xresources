@@ -179,9 +179,10 @@ Xft.rgba:       rgb
 !URxvt*shading:          10
 !URxvt*fading:           30
 !! -- Fonts -- !
+URxvt*letterSpace:-1
 URxvt.font:xft:Inconsolata:size=10
 !URxvt.font:xft:Terminus:size=10
-!URxvt.boldfont:xft:Inconsolata:size=10
+URxvt.boldfont:xft:Inconsolata:size=10
 
 URxvt*saveLines: 12000
 URxvt*scrollBar: false

@@ -171,12 +171,13 @@ bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ 
 
 
 
-
+# Start in tabbed mode
+workspace_layout tabbed
 
 # Autostart
 #exec xfce4-terminal
 exec --no-startup-id i3-sensible-terminal
-exec --no-startup-id firefox
+#exec --no-startup-id firefox
 
 # Application hotkeys
  bindsym $mod+u exec firefox
