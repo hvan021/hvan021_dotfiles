@@ -147,7 +147,7 @@
 !URxvt.perl-ext-common: default,matcher
 !URxvt.urlLauncher: firefox
 !URxvt.matcher.button: 1
- 
+
 
 
 
@@ -158,13 +158,13 @@
 
 !!! XFT
 !Xft.dpi:	    96
-Xft.antialias:  true	
+Xft.antialias:  true
 Xft.hinting:	true
 Xft.hintstyle:	hintfull
 Xft.rgba:       rgb
 
 !!! URxvt
-!URxvt*scrollBar: 	    false 
+!URxvt*scrollBar: 	    false
 !URxvt*geometry:  	    90x28
 !URxvt*cursorBlink:	    true
 !URxvt*urlLauncher:      uzblnewtab
@@ -180,6 +180,7 @@ Xft.rgba:       rgb
 !URxvt*fading:           30
 !! -- Fonts -- !
 URxvt.font:xft:Inconsolata:size=10
+!URxvt.font:xft:Terminus:size=10
 !URxvt.boldfont:xft:Inconsolata:size=10
 
 URxvt*saveLines: 12000
@@ -189,7 +190,7 @@ URxvt*scrollstyle: rxvt
 URxvt*perl-ext-common: default,matcher
 URxvt*urlLauncher: firefox
 URxvt*matcher.button: 1
-URxvt*colorUL: #86a2b
+URxvt*colorUL: #86a2bc
 
 
 
