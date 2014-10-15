@@ -9,4 +9,6 @@ if [ -d "$HOME/bin" ] ; then
   PATH="$HOME/bin:$PATH"
 fi
 
+export LANG=en_NZ.UTF-8
 export EDITOR=vim
+#export TERM=xterm

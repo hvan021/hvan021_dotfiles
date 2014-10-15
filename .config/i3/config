@@ -9,12 +9,12 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+# Mod1: ALT
+# Mod4: Winkey
+#
 #set $mod Mod1
 set $mod Mod1+Control
 
-#exec xfce4-terminal
-exec i3-sensible-terminal
-exec firefox
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
@@ -160,7 +160,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
         #mode hide
-        #hidden_state hide
+        hidden_state hide
         #modifier Mod1
         binding_mode_indicator no
 }
@@ -172,6 +172,15 @@ bindsym XF86AudioRaiseVolume exec /usr/bin/pactl set-sink-volume @DEFAULT_SINK@ 
 
 
 
+
+# Autostart
+#exec xfce4-terminal
+exec --no-startup-id i3-sensible-terminal
+exec --no-startup-id firefox
+
+# Application hotkeys
+ bindsym $mod+u exec firefox
+ bindsym $mod+p exec Thunar
 
 
 
