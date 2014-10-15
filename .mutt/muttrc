@@ -47,6 +47,14 @@ set sort_aux        = reverse-last-date-received
 
 #bind index G imap-fetch-mail
 
+# View html mails using lynx
+# set implicit_autoview
+auto_view text/html text/enriched application/x-gunzip application/postscript image/gif application/x-tar-gz
+#auto_view text/html application/x-pgp-message
+set mailcap_path="~/.mutt/mailcap"
+set mailcap_sanitize=yes
+
+
 #source ~/.mutt/colors/solarized-dark.muttrc
 #source ~/.mutt/colors/solarized-light.muttrc
 #source ~/.mutt/colors/zenburn.muttrc
