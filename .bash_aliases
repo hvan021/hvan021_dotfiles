@@ -66,3 +66,8 @@ alias sudo='sudo '
 alias tda='cd /d/Dropbox/Projects/tda/'
 alias e='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias eixt='exit'
+
+
+alias gotowork='~/Dev/djangobox/'
+#alias tmux='tmux -2'
+
