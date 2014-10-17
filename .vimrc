@@ -105,7 +105,7 @@
     " it is next to ``m`` and ``n`` which I use for navigating between tabs.
     let mapleader = ","
     " nnoremap . <NOP>
-    
+
     "noremap ; :
 
     set pastetoggle=<F2>
@@ -159,14 +159,14 @@
     map <c-h> <c-w>h
 
 
-    " maximize vertical 
+    " maximize vertical
     map <Leader>- <c-w>_
     " maximize horizontal
-    map <Leader>\ <c-w><Bar> 
+    map <Leader>\ <c-w><Bar>
     " normalize size
-    map <Leader>= <c-w>= 
+    map <Leader>= <c-w>=
     " tear to new tab
-    map <Leader>t <c-w>t 
+    map <Leader>t <c-w>t
 
     " set window minimum height
     set wmh=0
@@ -206,7 +206,7 @@
 
     " new settings
     map <Leader>a ggVG  " select all
-    nnoremap <leader>1 yypVr=  " add a line underneath with every character repalce by =
+    nnoremap <leader>1 yypVr=  " add a line underneath with every character replace by =
 
     " center the cursor vertically
     "nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
@@ -273,10 +273,10 @@ if has('win32') || has('win64')
     "set lines=55 columns=200
     "set lines=999 columns=999
     " winpos 65 1
-    set textwidth=80
+    set textwidth=0
     ":autocmd GUIEnter * winpos 1 1
-    " set maximize window 
-    au GUIEnter * simalt ~x 
+    " set maximize window
+    au GUIEnter * simalt ~x
     " set initial window size
     "set lines=60 columns=120
 endif
@@ -300,12 +300,10 @@ endif
 
 " Showing line numbers and length
  set number  " show line numbers
- "set tw=79   " width of document (used by gd)
- "set nowrap  " don't automatically wrap on load
- set fo-=t   " don't automatically wrap text when typing
- set wrap
- set formatoptions+=l  " keep existing 'textwidth' settings for most lines in your file, but not have Vim automatically reformat when typing on existing lines
- set linebreak
+ "set fo-=t   " don't automatically wrap text when typing
+ set nowrap
+ "set formatoptions+=l  " keep existing 'textwidth' settings for most lines in your file, but not have Vim automatically reformat when typing on existing lines
+ "set linebreak
  set nolist
  set textwidth=0
  set wrapmargin=0
@@ -436,7 +434,7 @@ endfunction
 " ============================================================================
 " ********** ADD-ON & PLUGGINS **********
 " cd ~/.vim/bundle
-" git submodule update --init.
+" git submodule update --init --recursive
 "
 " to update submodules:
 " git submodule foreach git pull origin master
@@ -450,6 +448,7 @@ endfunction
  "git submodule add https://github.com/Lokaltog/powerline bundle/powerline
  "git submodule add https://github.com/ervandew/supertab bundle/supertab
  "git submodule add https://github.com/plasticboy/vim-markdown.git bundle/vim-markdown
+ "git submodule add https://github.com/Lokaltog/vim-easymotion bundle/vim-easymotion
 "
 "
 "git submodule update --init --recursive
