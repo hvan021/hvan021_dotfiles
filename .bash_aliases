@@ -40,7 +40,6 @@ alias ls='ls --color=auto'
 
 if [[ "$OSTYPE" == "linux-gnu" ]] ; then
     #PS1='[\u@\h \W]\$ '
-
     archey3
 fi
 
