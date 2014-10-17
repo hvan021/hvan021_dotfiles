@@ -26,7 +26,7 @@ if [[ $OSTYPE == "darwin"* ]] ; then
     alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
     alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
     #alias vim='mvim'
-    alias vim='vim -v'
+   #alias vim='vim -v'
 fi
 
 export EDITOR=vim
