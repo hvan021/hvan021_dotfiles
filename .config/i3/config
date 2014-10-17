@@ -36,6 +36,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 
 # kill focused window
 bindsym $mod+Shift+q kill
+bindsym Mod4+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
@@ -176,7 +177,8 @@ workspace_layout tabbed
 
 # Autostart
 #exec xfce4-terminal
-exec --no-startup-id i3-sensible-terminal
+exec --no-startup-id feh --bg-fill ~/hvan021_dotfiles/wallpaper/arch_linux_wallpaper.png
+#exec --no-startup-id i3-sensible-terminal
 #exec --no-startup-id firefox
 
 # Application hotkeys
