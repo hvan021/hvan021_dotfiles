@@ -12,7 +12,7 @@
 .config/libreoffice/*
 .config/gtk*
 .config/xfce*
-.config/i3status/*
+! .config/i3status/*
 <<<<<<< HEAD
 .fehbg
 .config/Thunar/*
