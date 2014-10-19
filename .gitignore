@@ -15,6 +15,7 @@
 .config/gtk*
 .config/xfce*
 .config/i3status/*
+.fehbg
 
 auto-save-list
 custom.el
