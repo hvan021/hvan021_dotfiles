@@ -57,7 +57,7 @@
     " When you want to paste large blocks of code into vim, press F2 before you
     " paste. At the bottom you should see ``-- INSERT (paste) --``.
 
-    set clipboard=unnamed
+    set clipboard=unnamedplus " use unamplus to access system clipbaord in X
 
     set wildmode=list:longest " make TAB behave like in a shell
     set autoread " reload file when changes happen in other editors

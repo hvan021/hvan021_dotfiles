@@ -1,7 +1,5 @@
-!.pentadactyl/info/default/quickmarks
 .pentadactyl/info/default/*
 .mutt/cache/*
-.mutt/.muttrc
 !*.jpg
 !*.png
 .config/libreoffice/*
@@ -15,7 +13,10 @@
 .config/gtk*
 .config/xfce*
 .config/i3status/*
+<<<<<<< HEAD
 .fehbg
+.config/Thunar/*
+
 
 auto-save-list
 custom.el
