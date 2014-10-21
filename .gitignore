@@ -14,6 +14,7 @@
 .config/xfce*
 .config/i3status/*
 .config/Thunar/*
+.config/chromium/*
 
 
 auto-save-list
