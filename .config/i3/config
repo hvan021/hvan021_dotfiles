@@ -185,5 +185,5 @@ exec --no-startup-id feh --bg-fill ~/hvan021_dotfiles/wallpaper/arch_linux_wallp
  bindsym $mod+u exec firefox
  bindsym $mod+p exec Thunar
 
-
+bindsym $mod+Pause exec poweroff
 
