@@ -32,14 +32,14 @@ export EDITOR=vim
 export CLICOLOR=1
 
 
-# If not running interactively, do not do anything
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
+#If not running interactively, do not do anything
+#[[ $- != *i* ]] && return
+#[[ -z "$TMUX" ]] && exec tmux
 
-# TMUX
-if which tmux >/dev/null 2>&1; then
+ #TMUX
+#if which tmux >/dev/null 2>&1; then
     #if not inside a tmux session, and if no session is started, start a new session
-    test -z "$TMUX" && (tmux attach || tmux new-session)
-fi
+    #test -z "$TMUX" && (tmux attach || tmux new-session)
+#fi
 
  fortune | cowsay 
