@@ -31,7 +31,8 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec urxvt -e sh -c "tmux"
 #bindsym $mod+Return exec xfce4-terminal
 
 # kill focused window
@@ -182,8 +183,11 @@ exec --no-startup-id feh --bg-fill ~/hvan021_dotfiles/wallpaper/arch_linux_wallp
 #exec --no-startup-id firefox
 
 # Application hotkeys
- bindsym $mod+u exec firefox
- bindsym $mod+p exec Thunar
+ bindsym Mod4+Control+u exec firefox
+ bindsym Mod4+Control+p exec Thunar
+ bindsym $mod+u [class="Firefox"] focus
+ bindsym $mod+p [class="Thunar"] focus
+ bindsym $mod+o [class="URxvt"] focus
 
 bindsym $mod+Pause exec poweroff
 
