@@ -31,15 +31,20 @@ fi
 export EDITOR=vim
 export CLICOLOR=1
 
-
+# DO NOT USE THIS AUTOSTART TMUX -- CAUSE Xorg to fail on "no console users allowed..."
 # If not running interactively, do not do anything
-[[ $- != *i* ]] && return
-[[ -z "$TMUX" ]] && exec tmux
+# [[ $- != *i* ]] && return
+# [[ -z "$TMUX" ]] && exec tmux
 
 # TMUX
-if which tmux >/dev/null 2>&1; then
+#if which tmux >/dev/null 2>&1; then
     #if not inside a tmux session, and if no session is started, start a new session
-    test -z "$TMUX" && (tmux attach || tmux new-session)
-fi
+#    test -z "$TMUX" && (tmux attach || tmux new-session)
+#fi
+
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+
 
  fortune | cowsay 
