@@ -71,7 +71,7 @@ alias eixt='exit'
 
 alias gotowork='~/Dev/djangobox/'
 #alias tmux='tmux -2'
-alias pacman='sudo pacman -S '
+alias pac='sudo pacman -S '
 
 
 
