@@ -185,7 +185,9 @@ exec --no-startup-id feh --bg-fill ~/hvan021_dotfiles/wallpaper/arch_linux_wallp
 # Application hotkeys
  bindsym Mod4+Control+u exec firefox
  bindsym Mod4+Control+p exec Thunar
+ bindsym Mod4+Control+i exec chromium
  bindsym $mod+u [class="Firefox"] focus
+ bindsym $mod+i [class="Chromium"] focus
  bindsym $mod+p [class="Thunar"] focus
  bindsym $mod+o [class="URxvt"] focus
 
