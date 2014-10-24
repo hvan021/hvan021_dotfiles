@@ -59,7 +59,7 @@ alias gp='git pull'
 alias gs='git status'
 mkcd(){ dir=$1; mkdir -p $dir && cd $dir; }
 
-
+alias rdesktop='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator '
 alias rdchome='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator hughmediacenter'
 alias rdc='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator 192.168.0.1'
 alias homeserver='ssh Administrator@hughmediacenter'
