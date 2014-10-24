@@ -192,4 +192,6 @@ exec --no-startup-id feh --bg-fill ~/hvan021_dotfiles/wallpaper/arch_linux_wallp
  bindsym $mod+o [class="URxvt"] focus
 
 bindsym $mod+Pause exec poweroff
+bindsym $mod+Scroll_Lock exec reboot
+
 
