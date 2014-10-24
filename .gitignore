@@ -1,6 +1,7 @@
 .pentadactyl/info/default/*
 .mutt/cache/*
 .config/*
+.config/dconf/*
 !.config/i3
 !.config/openbox
 !config/locale.conf
