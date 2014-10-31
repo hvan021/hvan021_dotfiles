@@ -11,8 +11,8 @@ map -b k 5k
 nmap h gT
 nmap l gt
 map <BS> :back<cr>
-imap <C-j> <Down>
-imap <C-k> <Up>
+imap <C-j> <Down><tab>
+imap <C-k> <Up><tab>
 
 "map -b j 5j
 "map -b k 5k
@@ -43,6 +43,6 @@ command! pocket -description "save to pocket" open javascript:(function(){var e=
 
 js editor.defaultRegister="+"
 
-set titlestring="Firefox ❤ Vim"
+" set titlestring="Firefox ❤ Vim"
 
 " vim set ft=pentadactyl et ts=4

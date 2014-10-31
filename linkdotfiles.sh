@@ -9,7 +9,7 @@ if ! [ -d $backupdir ] ; then
     mkdir $backupdir
 fi
 
-for file in .{archey3.cfg,bash_aliases,bash_profile,bashrc,config,emacs.d,fehbg,gitconfig,gitignore,gitignore_global,pentadactyl,pentadactylrc,tmux,vim,vimrc,xinitrc,Xresources,zshrc}; do
+for file in .{archey3.cfg,bash_aliases,bash_profile,bashrc,config,emacs.d,fehbg,gitconfig,gitignore,gitignore_global,pentadactyl,pentadactylrc,tmux,vim,vimrc,xinitrc,Xmodmap,Xresources,zshrc}; do
 #for file in {testfile1,testfile2,testfile3}; do # debug
     original_file=~/$file
     dotfiles="$dotfiles_dir/$file"

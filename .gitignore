@@ -1,20 +1,10 @@
-!.pentadactyl/info/default/quickmarks
 .pentadactyl/info/default/*
 .mutt/cache/*
-.mutt/.muttrc
-!*.jpg
-!*.png
-.config/libreoffice/*
-.config/Clementine/*
-.config/ImageMagick/*
-.config/Trolltech.conf
-.config/calibre/*
-.config/vlc/*
-.config/ristretto/*
-.config/libreoffice/*
-.config/gtk*
-.config/xfce*
-.config/i3status/*
+.config/*
+.config/dconf/*
+!.config/i3
+!.config/openbox
+!config/locale.conf
 
 auto-save-list
 custom.el
