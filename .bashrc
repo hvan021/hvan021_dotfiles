@@ -16,6 +16,10 @@ fi
 if [ -d "/usr/local/mysql/bin" ] ; then
     export PATH="/usr/local/mysql/bin:$PATH"
 fi
+
+if [ -d "/home/huy/.gem/ruby/2.1.0/bin" ] ; then
+    export PATH="/home/huy/.gem/ruby/2.1.0/bin:$PATH"
+fi
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
 #PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
@@ -48,4 +52,4 @@ export QT_IM_MODULE=ibus
 
 
  #fortune | cowsay 
- fortune ~/myquote | cowsay
+ fortune ~/myquote | cowsay | lolcat
