@@ -26,6 +26,9 @@
     " curl -so ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
     " Now you can install any plugin into a .vim/bundle/plugin-name/ folder
     call pathogen#infect()
+    call pathogen#helptags()
+    " or call this in terminal
+    " vim -c 'call pathogen#helptags()|q'
 
     " Enable syntax highlighting
     " You need to reload this file for the change to apply
@@ -226,10 +229,16 @@
         map <Leader>h :tabe /private/etc/hosts <bar> vsp /private/etc/apache2/extra/httpd-vhosts.conf<CR>
     endif
 
-    nnoremap <F3> :set wrap! wrap?<CR>
-    imap <F3> <C-O><F3>
-    nnoremap <F1> :set hlsearch! hlsearch?<CR>
-    imap <F1> <C-O><F1>
+    "nnoremap <F3> :set wrap! wrap?<CR>
+    "imap <F3> <C-O><F3>
+    "nnoremap <F1> :set hlsearch! hlsearch?<CR>
+    "imap <F1> <C-O><F1>
+
+    nnoremap <leader>th :set hlsearch! hlsearch?<CR>
+    nnoremap <leader>tw :set wrap! wrap?<CR>
+    nnoremap <leader>tt :TagbarToggle<CR>
+
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Editing mappings
 " Remap VIM 0 to first non-blank character

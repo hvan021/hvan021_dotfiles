@@ -32,6 +32,8 @@ nmap <leader>v :tabopen www.dantri.com.vn | www.vnexpress.net | www.ngoisao.net 
 "nmap <leader>tda :tabopen tda.local/tda | tdacms.com | cmsdev.local <cr>
 nmap <leader>tda :tabopen tda.local/tda | tdacms.com | localhost/pma403_cur/<cr>
 nmap <leader>log :tabopen getpocket.com/login | github.com <cr>
+nmap <leader>m :tabopen https://mail.google.com/mail/u/0/#inbox <cr>
+nmap <leader>p :tabopen http://thepiratebay.se/ | http://hvan021.zapto.org:8083/gui/ <cr>
 " Pass through for some sites
 " autocmd LocationChange ^https?://(drive|docs|mail)\.google\.com/ :normal! <C-z>
 
