@@ -51,5 +51,5 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
 
- #fortune | cowsay 
- fortune ~/myquote | cowsay | lolcat
+ fortune | cowsay | lolcat
+ #fortune ~/myquote | cowsay | lolcat
