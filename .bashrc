@@ -55,5 +55,6 @@ export QT_IM_MODULE=ibus
 if [[ $OSTYPE == "darwin"* ]] ; then
     fortune | cowsay 
 else
-    fortune ~/myquote | cowsay | lolcat
+    #fortune ~/myquote | cowsay | lolcat
+    fortune | cowsay | lolcat
 fi

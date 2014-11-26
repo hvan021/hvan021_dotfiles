@@ -186,6 +186,7 @@ exec --no-startup-id feh --bg-fill ~/hvan021_dotfiles/wallpaper/arch_linux_wallp
  bindsym Mod4+Control+u exec firefox
  bindsym Mod4+Control+p exec Thunar
  bindsym Mod4+Control+i exec chromium
+ bindsym Mod4+Control+o exec urxvt -e sh -c "tmux"
  bindsym $mod+u [class="Firefox"] focus
  bindsym $mod+i [class="Chromium"] focus
  bindsym $mod+p [class="Thunar"] focus
