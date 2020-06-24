@@ -77,7 +77,7 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 ## Huy's settings
-plugins=(git autojump python virtualenvwrapper)
+plugins=(git autojump python3 virtualenvwrapper)
 
 #source $HOME/.bash_exports
 #source $ZSH/oh-my-zsh.sh
@@ -87,18 +87,24 @@ setopt nocorrectall
 #export POWERLINE_COMMAND=~/Library/Python/2.7/lib/bin/powerline
 
 #if [[ $OSTYPE == "darwin"* ]]; then
-    #path+=( ~/Library/Python/2.7/bin )
-    #. ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+    #path+=( ~/Library/Python/3.7/bin )
+    #. ~/Library/Python/3.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
 #elif [[ -r ~/.local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
     #source ~/.local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh
 #fi
 
 # virtualenvwrapper settings
-if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
-    export WORKON_HOME=$HOME/Envs
-    export PROJECT_HOME=$HOME/Devel
-    source /usr/local/bin/virtualenvwrapper.sh
-fi
+# 22/04/2019 fix python & virtualenv after brew upgrade
+#if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
+    #export WORKON_HOME=$HOME/.virtualenvs
+    #export PROJECT_HOME=$HOME/Dev
+    #source /usr/local/bin/virtualenvwrapper.sh
+#fi
+
+# powerline style prompt
+# 22/04/2019 fix powerline after brew upgrade
+powerline-daemon -q
+. /usr/local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
 
 
 # set color for iterm
@@ -112,4 +118,24 @@ fi
 if [ -f "/etc/arch-release" ] ; then
     [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 fi
+
+
+bindkey -v
+
+#bindkey '^P' up-history
+#bindkey '^N' down-history
+#bindkey '^?' backward-delete-char
+#bindkey '^h' backward-delete-char
+#bindkey '^w' backward-kill-word
+#bindkey '^r' history-incremental-search-backward
+
+#function zle-line-init zle-keymap-select {
+    #VIM_PROMPT="%{$fg_bold[yellow]%} [% NORMAL]%  %{$reset_color%}"
+    #RPS1="${${KEYMAP/vicmd/$VIM_PROMPT}/(main|viins)/}$(git_custom_status) $EPS1"
+    #zle reset-prompt
+#}
+
+#zle -N zle-line-init
+#zle -N zle-keymap-select
+export KEYTIMEOUT=1
 

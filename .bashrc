@@ -13,6 +13,10 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
+if [ -d "/usr/local/bin" ] ; then
+    export PATH="/usr/local/bin:$PATH"
+fi
+
 if [ -d "/usr/local/mysql/bin" ] ; then
     export PATH="/usr/local/mysql/bin:$PATH"
 fi
@@ -20,17 +24,28 @@ fi
 if [ -d "/home/huy/.gem/ruby/2.1.0/bin" ] ; then
     export PATH="/home/huy/.gem/ruby/2.1.0/bin:$PATH"
 fi
+
+if [ -d "/usr/local/go" ] ; then
+    #export PATH="$HOME/Dev/go:$PATH"
+    export GOPATH="$HOME/Dev/go"
+    export GOBIN="$GOPATH/bin"
+    export PATH="$PATH:$GOPATH/bin"
+fi
 # Setting PATH for Python 3.4
 # The orginal version is saved in .bash_profile.pysave
 #PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 #export PATH="/usr/local/bin:$PATH"
-
+export PATH="/usr/local/bin/python3:$PATH"
 
 if [[ $OSTYPE == "darwin"* ]] ; then
     alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
     alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
     #alias vim='mvim'
    #alias vim='vim -v'
+
+   # run javascript in OSX Terminal - 
+   ##### need to change console.log() to debug() #######
+   #alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
 fi
 
 export EDITOR=vim
@@ -58,3 +73,4 @@ else
     #fortune ~/myquote | cowsay | lolcat
     fortune | cowsay | lolcat
 fi
+

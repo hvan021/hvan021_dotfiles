@@ -5,7 +5,7 @@
     " -------- VIM GENERAL SETTINGS --------
     " ============================================================================
     set nocompatible " Must be first line
-
+runtime macros/matchit.vim
 " Windows Compatible {
 " On Windows, also use '.vim' instead of 'vimfiles'; this makes synchronization
 " across (heterogeneous) systems easier.
@@ -60,7 +60,9 @@
     " When you want to paste large blocks of code into vim, press F2 before you
     " paste. At the bottom you should see ``-- INSERT (paste) --``.
 
-    set clipboard=unnamedplus " use unamplus to access system clipbaord in X
+    "set clipboard=unnamedplus " use unamplus to access system clipbaord in X
+    set clipboard=unnamed " use unamplus to access system clipbaord in X
+
 
     set wildmode=list:longest " make TAB behave like in a shell
     set autoread " reload file when changes happen in other editors
@@ -210,6 +212,9 @@
     " new settings
     map <Leader>a ggVG  " select all
     nnoremap <leader>1 yypVr=  " add a line underneath with every character replace by =
+    nnoremap <leader>2 yyPVr= j " add a line above  with every character replace by =
+    nnoremap <leader>8 yyPVr*xx I/<ESC> A/ <ESC>j " comment line above with /***/
+
 
     " center the cursor vertically
     "nnoremap <Leader>zz :let &scrolloff=999-&scrolloff<CR>
@@ -233,10 +238,23 @@
     "imap <F3> <C-O><F3>
     "nnoremap <F1> :set hlsearch! hlsearch?<CR>
     "imap <F1> <C-O><F1>
+    "
 
+   "Insert date time using F5
+    nnoremap <leader>d "=strftime("%c")<CR>P
+    inoremap <leader>d <C-R>=strftime("%c")<CR>
+
+    " toggle highlight search / wrap /
     nnoremap <leader>th :set hlsearch! hlsearch?<CR>
     nnoremap <leader>tw :set wrap! wrap?<CR>
     nnoremap <leader>tt :TagbarToggle<CR>
+    
+    " delete all / yank all
+    nnoremap <leader>da :%d<CR>
+    nnoremap <leader>ya :%y<CR>
+
+    " yank all text in all buffers into clipboard A
+    nnoremap <leader>yA :bufdo normal "A%y<CR>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -245,6 +263,9 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "map 0 ^
 
+" Search for selected text
+" By pressing ctrl+r in visual mode, you will be prompted to enter text to replace with. Press enter and then confirm each change you agree with y or decline with n.
+" This command will override your register h so you can choose other one (by changing h in the command above to another lower case letter) that you don't use.
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " Move a line of text using ALT+[jk] or Comamnd+[jk] on mac
@@ -312,7 +333,7 @@ endif
  "set fo-=t   " don't automatically wrap text when typing
  set nowrap
  "set formatoptions+=l  " keep existing 'textwidth' settings for most lines in your file, but not have Vim automatically reformat when typing on existing lines
- "set linebreak
+ set linebreak
  set nolist
  set textwidth=0
  set wrapmargin=0
@@ -437,8 +458,8 @@ function! MyPrev()
     endif
 endfunction
 
-"nnoremap L :call MyNext()<CR>
-"nnoremap H :call MyPrev()<CR>
+nnoremap L :call MyNext()<CR>
+nnoremap H :call MyPrev()<CR>
 
 " ============================================================================
 " ********** ADD-ON & PLUGGINS **********
@@ -511,16 +532,14 @@ endfunction
 "source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
 "let g:Powerline_symbols = 'fancy'
 
+" 22/04/2019 Fix powerline after brew upgrade
     if has('win32') || has('win64')
        let g:Powerline_symbols = 'unicode'
     elseif has('mac')
-        source ~/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
-        let g:Powerline_symbols = 'fancy'
+         python3 from powerline.vim import setup as powerline_setup
+         python3 powerline_setup()
+         python3 del powerline_setup
     else
-        " python 2.7
-        "set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-
-        " python 3.4
         set rtp+=$HOME/.local/lib/python3.4/site-packages/powerline/bindings/vim/
         let g:Powerline_symbols = 'fancy'
     endif

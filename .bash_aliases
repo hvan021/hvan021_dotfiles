@@ -36,7 +36,7 @@ if [[ "$OSTYPE" == "cygwin" ]] ; then
     alias gvim='/cygdrive/d/Vim/vim74/gvim.exe'
 fi
 
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
 
 if [[ "$OSTYPE" == "linux-gnu" ]] ; then
     #PS1='[\u@\h \W]\$ '
@@ -63,7 +63,7 @@ alias rdchome='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator hughmedi
 alias rdc='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator 192.168.0.1'
 alias homeserver='ssh Administrator@hughmediacenter'
 alias sudo='sudo '
-alias tda='cd /d/Dropbox/Projects/tda/'
+#alias tda='cd /d/Dropbox/Projects/tda/'
 alias e='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias eixt='exit'
 
@@ -71,7 +71,8 @@ alias eixt='exit'
 alias gotowork='~/Dev/djangobox/'
 #alias tmux='tmux -2'
 alias pac='sudo pacman -S '
-
+# alias for diary
+alias diary='vim $(date +%Y%m%d).txt'
 
 
 
