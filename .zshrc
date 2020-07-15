@@ -7,7 +7,12 @@ source $HOME/.bash_profile
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-
+#ZSH_THEME_RANDOM_CANDIDATES=(
+  #"robbyrussell"
+  #"agnoster"
+#)
+#ZSH_THEME="random" # (...please let it be pie... please be some pie..)
+#
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -49,7 +54,6 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -77,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 ## Huy's settings
-plugins=(git autojump python3 virtualenvwrapper)
+plugins=(git python3 virtualenvwrapper)
 
 #source $HOME/.bash_exports
 #source $ZSH/oh-my-zsh.sh

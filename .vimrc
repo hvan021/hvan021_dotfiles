@@ -544,6 +544,11 @@ nnoremap H :call MyPrev()<CR>
         let g:Powerline_symbols = 'fancy'
     endif
 
+
+" fzf settings
+set rtp+=/usr/local/opt/fzf
+
+
 " ============================================================================
 " Fugitive mapping
 " ============================================================================
