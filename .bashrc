@@ -37,16 +37,6 @@ fi
 #export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/bin/python3:$PATH"
 
-if [[ $OSTYPE == "darwin"* ]] ; then
-    alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
-    alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
-    #alias vim='mvim'
-   #alias vim='vim -v'
-
-   # run javascript in OSX Terminal - 
-   ##### need to change console.log() to debug() #######
-   #alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
-fi
 
 export EDITOR=vim
 export CLICOLOR=1
@@ -67,10 +57,17 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 
 
-if [[ $OSTYPE == "darwin"* ]] ; then
-    fortune | cowsay 
-else
-    #fortune ~/myquote | cowsay | lolcat
-    fortune | cowsay | lolcat
-fi
+#if [[ $OSTYPE == "darwin"* ]] ; then
+    #fortune | cowsay 
+#else
+    ##fortune ~/myquote | cowsay | lolcat
+    #fortune | cowsay | lolcat
+#fi
+
+
+source /Users/huy/.config/broot/launcher/bash/br
+
+#[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+
 

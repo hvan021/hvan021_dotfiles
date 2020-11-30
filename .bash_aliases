@@ -39,10 +39,25 @@ fi
 #alias ls='ls --color=auto'
 
 if [[ "$OSTYPE" == "linux-gnu" ]] ; then
-    #PS1='[\u@\h \W]\$ '
-    archey3
+    ##PS1='[\u@\h \W]\$ '
+    #archey3
+    alias ss='sudo systemctl'
+
+    alias rdesktop='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator '
+    alias rdchome='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator homeserver'
+    alias rdc='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator 192.168.0.1'
 fi
 
+if [[ $OSTYPE == "darwin"* ]] ; then
+    alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+    alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+    #alias vim='mvim'
+   #alias vim='vim -v'
+
+   # run javascript in OSX Terminal - 
+   ##### need to change console.log() to debug() #######
+   #alias jsc='/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/jsc'
+fi
 
 alias ga='git add'
 alias gb='git branch'
@@ -58,21 +73,38 @@ alias gp='git pull'
 alias gs='git status'
 mkcd(){ dir=$1; mkdir -p $dir && cd $dir; }
 
-alias rdesktop='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator '
-alias rdchome='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator hughmediacenter'
-alias rdc='rdesktop -g 95% -P -z -x l -r sound:off -u Administrator 192.168.0.1'
-alias homeserver='ssh Administrator@hughmediacenter'
-alias sudo='sudo '
+alias sshhs='ssh homeserver'
+alias sshrs='ssh hvan021.duckdns.org' ## ssh  remote homeserver
+alias lmpd='sshfs -o allow_other,default_permissions,IdentityFile=~/.ssh/id_rsa huy@homeserver:/mnt/data/SharedFolder/Music /Users/huy/MMusic && ncmpcpp'
+alias rmpd='sshfs -o allow_other,default_permissions,IdentityFile=~/.ssh/id_rsa huy@hvan021.duckdns.org:/mnt/data/SharedFolder/Music /Users/huy/MMusic && ncmpcpp'
+
+#alias sudo='sudo '
 #alias tda='cd /d/Dropbox/Projects/tda/'
-alias e='/Applications/Emacs.app/Contents/MacOS/Emacs'
+#alias e='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias eixt='exit'
 
 
-alias gotowork='~/Dev/djangobox/'
+#alias gotowork='~/Dev/djangobox/'
 #alias tmux='tmux -2'
-alias pac='sudo pacman -S '
+#alias pac='sudo pacman -S '
 # alias for diary
-alias diary='vim $(date +%Y%m%d).txt'
+#alias diary='vim $(date +%Y%m%d).txt'
+alias hisgrep='history | grep '
+alias mountshare='mount_smbfs //huy@homeserver/SharedFolder ~/SharedFolder'
+alias ts='task sync'
+alias ta='task add'
+alias tb='task burndown'
+alias ti='task info'
+alias td='task done'
+alias tm='task modify'
+alias wttr='curl wttr.in'
+#alias rm='trash'
 
+#alias v='vim `fzf -i`'
 
+# Show contents of the directory after changing to it
+function cd () {
+  builtin cd "$1"
+  ls -ACF
+}
 

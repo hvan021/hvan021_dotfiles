@@ -6,7 +6,8 @@ source $HOME/.bash_profile
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 #ZSH_THEME_RANDOM_CANDIDATES=(
   #"robbyrussell"
   #"agnoster"
@@ -55,7 +56,6 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -81,10 +81,12 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 ## Huy's settings
-plugins=(git python3 virtualenvwrapper)
+plugins=(git python3 colored-man-pages zsh-autosuggestions zsh-syntax-highlighting )
 
 #source $HOME/.bash_exports
 #source $ZSH/oh-my-zsh.sh
+
+source $ZSH/oh-my-zsh.sh
 setopt nocorrectall
 
 #source $HOME/.bash_aliases
@@ -108,7 +110,8 @@ setopt nocorrectall
 # powerline style prompt
 # 22/04/2019 fix powerline after brew upgrade
 powerline-daemon -q
-. /usr/local/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+. /usr/local/lib/python3.8/site-packages/powerline/bindings/zsh/powerline.zsh
+
 
 
 # set color for iterm
@@ -126,6 +129,7 @@ fi
 
 bindkey -v
 
+
 #bindkey '^P' up-history
 #bindkey '^N' down-history
 #bindkey '^?' backward-delete-char
@@ -142,4 +146,12 @@ bindkey -v
 #zle -N zle-line-init
 #zle -N zle-keymap-select
 export KEYTIMEOUT=1
+
+export PATH="/usr/local/sbin:$PATH"
+
+#source /Users/huy/.config/broot/launcher/bash/br
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
 

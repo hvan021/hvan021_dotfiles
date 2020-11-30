@@ -118,18 +118,6 @@ runtime macros/matchit.vim
     map <Leader>ev :e ~/.vimrc<cr>
 
 
-    " =========================
-    " Awesome line number magic
-    " =========================
-    "function! NumberToggle()
-    "if(&relativenumber == 1)
-        "set number
-    "else
-        "set relativenumber
-    "endif
-    "endfunc
-
-    "nnoremap <Leader>l :call NumberToggle()<cr>
     nnoremap <Leader>l :set  relativenumber!<cr>
     ":au FocusLost * :set number
     ":au FocusGained * :set relativenumber
@@ -158,10 +146,10 @@ runtime macros/matchit.vim
 
     " bind Ctrl+<movement> keys to move around the windows, instead of using Ctrl+w + <movement>
     " Every unnecessary keystroke that can be saved is good for your health :)
-    map <c-j> <c-w>j
-    map <c-k> <c-w>k
-    map <c-l> <c-w>l
-    map <c-h> <c-w>h
+    "map <c-j> <c-w>j
+    "map <c-k> <c-w>k
+    "map <c-l> <c-w>l
+    "map <c-h> <c-w>h
 
 
     " maximize vertical
@@ -177,10 +165,10 @@ runtime macros/matchit.vim
     set wmh=0
 
     " provide hjkl movements in Insert mode via the <Alt> modifier key
-    inoremap <A-h> <C-o>h
-    inoremap <A-j> <C-o>j
-    inoremap <A-k> <C-o>k
-    inoremap <A-l> <C-o>l
+    "inoremap <A-h> <C-o>h
+    "inoremap <A-j> <C-o>j
+    "inoremap <A-k> <C-o>k
+    "inoremap <A-l> <C-o>l
 
     " map jk and kj to ESC
     inoremap jk <esc>
@@ -189,7 +177,7 @@ runtime macros/matchit.vim
     inoremap <C-e> <C-O>$
     inoremap ;; <end>;
     inoremap {{ <end>{}<left>
-    inoremap <A-p> <C-O>p
+    "inoremap <A-p> <C-O>p
 
     "autocmd FileType php imap <buffer> <C-[> <end>{
     " easier moving between tabs
@@ -248,7 +236,7 @@ runtime macros/matchit.vim
     nnoremap <leader>th :set hlsearch! hlsearch?<CR>
     nnoremap <leader>tw :set wrap! wrap?<CR>
     nnoremap <leader>tt :TagbarToggle<CR>
-    
+
     " delete all / yank all
     nnoremap <leader>da :%d<CR>
     nnoremap <leader>ya :%y<CR>
@@ -269,17 +257,23 @@ runtime macros/matchit.vim
 vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
 
 " Move a line of text using ALT+[jk] or Comamnd+[jk] on mac
-nmap <M-j> mz:m+<cr>`z
-nmap <M-k> mz:m-2<cr>`z
-vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
-vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z
+nnoremap <leader>j :m .+1<CR>==
+"nnoremap <A-j> :m .+1<CR>==
+nnoremap <leader>k :m .-2<CR>==
+"inoremap <A-j> <Esc>:m .+1<CR>==gi
+"inoremap <A-k> <Esc>:m .-2<CR>==gi
+"vnoremap <A-j> :m '>+1<CR>gv=gv
+"vnoremap <A-k> :m '<-2<CR>gv=gv
 
-if has("mac") || has("unix")
-  nmap <D-j> <M-j>
-  nmap <D-k> <M-k>
-  vmap <D-j> <M-j>
-  vmap <D-k> <M-k>
-endif
+
+
+
+"if has("mac") || has("unix")
+  "nmap <D-j> <M-j>
+  "nmap <D-k> <M-k>
+  "vmap <D-j> <M-j>
+  "vmap <D-k> <M-k>
+"endif
 
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
 func! DeleteTrailingWS()
@@ -533,17 +527,19 @@ nnoremap H :call MyPrev()<CR>
 "let g:Powerline_symbols = 'fancy'
 
 " 22/04/2019 Fix powerline after brew upgrade
-    if has('win32') || has('win64')
-       let g:Powerline_symbols = 'unicode'
-    elseif has('mac')
-         python3 from powerline.vim import setup as powerline_setup
-         python3 powerline_setup()
-         python3 del powerline_setup
-    else
-        set rtp+=$HOME/.local/lib/python3.4/site-packages/powerline/bindings/vim/
-        let g:Powerline_symbols = 'fancy'
-    endif
-
+    "if has('win32') || has('win64')
+       "let g:Powerline_symbols = 'unicode'
+    "elseif has('mac')
+         "python3 from powerline.vim import setup as powerline_setup
+         "python3 powerline_setup()
+         "python3 del powerline_setup
+    "else
+        "set rtp+=$HOME/.local/lib/python3.4/site-packages/powerline/bindings/vim/
+        "let g:Powerline_symbols = 'fancy'
+    "endif
+    "
+" 2020/08/05 resintall powerline using pip3 install powerline-status
+source /usr/local/lib/python3.8/site-packages/powerline/bindings/vim/plugin/powerline.vim
 
 " fzf settings
 set rtp+=/usr/local/opt/fzf
@@ -564,6 +560,7 @@ nnoremap <leader>gw :Gwrite<CR><CR>
 nnoremap <leader>gl :silent! Glog<CR>:bot copen<CR>
 nnoremap <leader>gp :Ggrep<Space>
 nnoremap <leader>gm :Gmove<Space>
+
 nnoremap <leader>gb :Git branch<Space>
 nnoremap <leader>go :Git checkout<Space>
 nnoremap <leader>gps :Dispatch! git push<CR>
@@ -874,4 +871,11 @@ endif
   "elseif os == 'Linux'
     "set guifont=Monospace\ 12
   "endif
+
+" todoV
+nnoremap <leader>ta ^I[]<space>
+inoremap <leader>ta <C-o>^[]<space>
+
+nnoremap <leader>td ^lix<Esc>
+inoremap <leader>td <C-o>^<right>x<Esc>
 
